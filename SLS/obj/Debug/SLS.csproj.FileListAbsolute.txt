@@ -1,0 +1,507 @@
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.exe.config
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.exe
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.pdb
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Connection.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Properties.Resources.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.csproj.GenerateResource.Cache
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.exe
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.pdb
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Login.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenu.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Member.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Savings.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Loan.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Time.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.exe.config
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.exe
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.pdb
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.exe
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.pdb
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Connection.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Login.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenu.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Loan.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Time.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Savings.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Member.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Properties.Resources.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.csproj.GenerateResource.Cache
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.MaintenanceDB.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.MemberType.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.TransactionDB.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.DormancyDB.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.SavingsTypeDB.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.TransactionDB.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositPenaltyDB.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositRatesDB.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.TransactionDB.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.SavingsType.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Dormancy.resources
+C:\Users\clarisse\Favorites\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Transaction.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.exe.config
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.exe
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.pdb
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.exe
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.pdb
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Connection.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Login.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenu.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Loan.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Time.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Savings.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Member.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Properties.Resources.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.csproj.GenerateResource.Cache
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Database.MaintenanceDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Application.MemberType.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Database.TransactionDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Dormancy.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.DormancyDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SavingsType.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.SavingsTypeDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.TransactionDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositPenaltyDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositRatesDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TransactionDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.exe.config
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.exe
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Connection.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Login.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenu.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Loan.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Time.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Savings.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Member.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Database.MaintenanceDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Application.MemberType.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Database.TransactionDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Properties.Resources.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Dormancy.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.DormancyDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SavingsType.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.SavingsTypeDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.TransactionDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositPenaltyDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositRatesDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TransactionDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.csproj.GenerateResource.Cache
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.exe
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.pdb
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.NewAccount.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.pdb
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.NewAccount.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SearchAccount.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Transaction.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.CloseAccount.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositRates.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositPenalty.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Application.MembershipApplication.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Reports.Form1.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Sir John Paul\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Transaction.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.exe.config
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.exe
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.pdb
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.exe
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.pdb
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Connection.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Login.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenu.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Loan.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Time.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Savings.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Member.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Application.MembershipApplication.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Database.MaintenanceDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Application.MemberType.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Database.TransactionDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Reports.Form1.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Properties.Resources.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.CloseAccount.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Dormancy.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.NewAccount.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SearchAccount.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Transaction.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.DormancyDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SavingsType.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.SavingsTypeDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.TransactionDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositPenalty.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositRates.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Transaction.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositPenaltyDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositRatesDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TransactionDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.csproj.GenerateResource.Cache
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\bin\Debug\SLS.exe.config
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.exe
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.pdb
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\bin\Debug\SLS.exe
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\bin\Debug\SLS.pdb
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.Connection.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.Login.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.MainMenu.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.MainMenuForm.Loan.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.MainMenuForm.Time.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.MainMenuForm.Savings.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.MainMenuForm.Member.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.Member.Application.MembershipApplication.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.Member.Database.MaintenanceDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.Member.Application.MemberType.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.Member.Database.TransactionDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.Member.Reports.Form1.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.Properties.Resources.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.CloseAccount.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Dormancy.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.NewAccount.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SearchAccount.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Transaction.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.DormancyDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SavingsType.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.SavingsTypeDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.TransactionDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositPenalty.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositRates.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.TimeDeposit.Transaction.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositPenaltyDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositRatesDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TransactionDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System (1)\SLS\SLS\obj\Debug\SLS.csproj.GenerateResource.Cache
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanApproval.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanChargeName.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanPayment.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanRelease.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanRestruct.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanType.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.ModeOfpayment.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.TermOfPayment.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.ApproveReject.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanApp.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanCharges.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanPayment.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanRestruct.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanType.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.ReleaseAmor.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Application.MembershipApplication.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Database.MaintenanceDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Application.MemberType.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Database.TransactionDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Reports.Form1.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Search.MemberSearch.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Search.MemberTypeSearch.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.CloseAccount.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Dormancy.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.NewAccount.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SearchAccount.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Transaction.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.DormancyDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SavingsType.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.SavingsTypeDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.TransactionDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.DormancySearch.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.SavingsDepositSearch.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.SavingsTypeSearch.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositPenalty.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositRates.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Transaction.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositPenaltyDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositRatesDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TransactionDB.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Search.TimeDepositPenaltySearch.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Search.TimeDepositRateSearch.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanApplication.resources
+C:\Users\Jenicarl J. Cutaran\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.ChargeModeTerm.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanApplication.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanApproval.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanChargeName.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanPayment.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanRelease.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanRestruct.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanType.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.ModeOfpayment.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.TermOfPayment.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.ApproveReject.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanApp.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanCharges.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanPayment.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanRestruct.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanType.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.ChargeModeTerm.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.ReleaseAmor.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Search.MemberSearch.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Search.MemberTypeSearch.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.DormancySearch.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.SavingsDepositSearch.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.SavingsTypeSearch.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Search.TimeDepositPenaltySearch.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Search.TimeDepositRateSearch.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\bin\Debug\SLS.exe.config
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.exe
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.pdb
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\bin\Debug\SLS.exe
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\bin\Debug\SLS.pdb
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Connection.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanApplication.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanApproval.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanChargeName.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanPayment.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanRelease.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanRestruct.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanType.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Application.ModeOfPayment.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Application.TermOfPayment.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Database.ApproveReject.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanApp.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanCharges.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanPayment.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanRestruct.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanType.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Database.ChargeModeTerm.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Loan.Database.ReleaseAmor.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Login.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.MainMenu.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.MainMenuForm.Loan.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.MainMenuForm.Time.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.MainMenuForm.Savings.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.MainMenuForm.Member.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.MainMenuForm.Utilities.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Member.Application.MembershipApplication.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Member.Database.MaintenanceDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Member.Application.MemberType.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Member.Database.TransactionDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Member.Reports.Form1.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Member.Search.MemberSearch.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Member.Search.MemberTypeSearch.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.Properties.Resources.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.CloseAccount.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Dormancy.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.NewAccount.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SearchAccount.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Transaction.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.DormancyDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SavingsType.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.SavingsTypeDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.TransactionDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.DormancySearch.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.SavingsDepositSearch.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.SavingsTypeSearch.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositPenalty.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositRates.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.TimeDeposit.Transaction.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositPenaltyDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositRatesDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TransactionDB.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.TimeDeposit.Search.TimeDepositPenaltySearch.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.TimeDeposit.Search.TimeDepositRateSearch.resources
+C:\Users\Admin\Desktop\Savings and Loan Management System1\SLS\SLS\obj\Debug\SLS.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.exe.config
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.exe
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.pdb
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Connection.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanApplication.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanApproval.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanChargeName.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanPayment.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanRelease.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanRestruct.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanType.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.ModeOfPayment.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.TermOfPayment.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.ApproveReject.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanApp.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanCharges.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanPayment.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanRestruct.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanType.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.ChargeModeTerm.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.ReleaseAmor.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Login.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenu.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Loan.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Time.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Savings.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Member.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Utilities.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Application.MembershipApplication.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Database.MaintenanceDB.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Application.MemberType.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Database.TransactionDB.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Search.MemberSearch.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Search.MemberTypeSearch.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Properties.Resources.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.CloseAccount.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Dormancy.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.NewAccount.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SearchAccount.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Transaction.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.DormancyDB.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SavingsType.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.SavingsTypeDB.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.TransactionDB.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.DormancySearch.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.SavingsDepositSearch.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.SavingsTypeSearch.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositPenalty.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositRates.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Transaction.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositPenaltyDB.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositRatesDB.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TransactionDB.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Search.TimeDepositPenaltySearch.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Search.TimeDepositRateSearch.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.exe
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.pdb
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Dashboard.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Utilities.Application.CreditInvestigator.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Utilities.Database.CreditInvestigationDB.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Utilities.Application.LoanGrantors.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Utilities.Database.LoanGrantorsDB.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Utilities.Application.ChangePass.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Utilities.Application.UserAccount.resources
+C:\Users\Admin\Desktop\Capstone Mock Files\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Utilities.Database.UserAccountDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.exe.config
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.exe
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.pdb
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Connection.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.ChargeModeTermDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanApplicationDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanTypeDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Application.ClosureRenewal.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Application.NewAccount.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Application.SearchAccount.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Utilities.Application.ChangePass.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Utilities.Application.CreditInvestigator.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Utilities.Application.LoanGrantors.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanApplication.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanApproval.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanChargeName.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanPayment.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanRelease.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanRestruct.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanType.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.ModeOfPayment.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Application.TermOfPayment.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.ApproveReject.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanCharges.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanPayment.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanRestruct.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Loan.Database.ReleaseAmor.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Login.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenu.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Dashboard.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Loan.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Time.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Savings.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Member.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.MainMenuForm.Utilities.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Application.MembershipApplication.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Database.MaintenanceDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Application.MemberType.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Database.TransactionDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Search.MemberSearch.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Member.Search.MemberTypeSearch.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Properties.Resources.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.CloseAccount.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Dormancy.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.NewAccount.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SearchAccount.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Transaction.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.DormancyDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SavingsType.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.SavingsTypeDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.TransactionDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.DormancySearch.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.SavingsDepositSearch.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.SavingsTypeSearch.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositPenalty.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositRates.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositPenaltyDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositRatesDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TransactionDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Search.TimeDepositPenaltySearch.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.TimeDeposit.Search.TimeDepositRateSearch.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Utilities.Application.UserAccount.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Utilities.Database.CreditInvestigationDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Utilities.Database.LoanGrantorsDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.Utilities.Database.UserAccountDB.resources
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\obj\Debug\SLS.csproj.GenerateResource.Cache
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.exe
+C:\Users\Jenicarl J. Cutaran\Downloads\Savings and Loan Management System\Savings and Loan Management System\SLS\SLS\bin\Debug\SLS.pdb
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\bin\Debug\SLS.exe.config
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.exe
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.pdb
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\bin\Debug\SLS.exe
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\bin\Debug\SLS.pdb
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.csprojResolveAssemblyReference.cache
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Connection.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Database.ChargeModeTermDB.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanApplicationDB.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanTypeDB.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.TimeDeposit.Application.ClosureRenewal.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.TimeDeposit.Application.NewAccount.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.TimeDeposit.Application.SearchAccount.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Utilities.Application.ChangePass.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Utilities.Application.CreditInvestigator.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Utilities.Application.LoanGrantors.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanApplication.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanApproval.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanChargeName.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanPayment.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanRelease.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanRestruct.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Application.LoanType.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Application.ModeOfPayment.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Application.TermOfPayment.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Database.ApproveReject.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanCharges.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanPayment.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Database.LoanRestruct.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Loan.Database.ReleaseAmor.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Login.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.MainMenu.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.MainMenuForm.Dashboard.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.MainMenuForm.Loan.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.MainMenuForm.Time.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.MainMenuForm.Savings.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.MainMenuForm.Member.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.MainMenuForm.Utilities.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Member.Application.MembershipApplication.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Member.Database.MaintenanceDB.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Member.Application.MemberType.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Member.Database.TransactionDB.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Member.Search.MemberSearch.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Member.Search.MemberTypeSearch.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Properties.Resources.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.CloseAccount.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Dormancy.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.NewAccount.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SearchAccount.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.Transaction.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.DormancyDB.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Application.SavingsType.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.SavingsTypeDB.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Database.TransactionDB.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.DormancySearch.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.SavingsDepositSearch.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.SavingsDeposit.Search.SavingsTypeSearch.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositPenalty.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.TimeDeposit.TimeDepositRates.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositPenaltyDB.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TimeDepositRatesDB.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.TimeDeposit.Database.TransactionDB.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.TimeDeposit.Search.TimeDepositPenaltySearch.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.TimeDeposit.Search.TimeDepositRateSearch.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Utilities.Application.UserAccount.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Utilities.Database.CreditInvestigationDB.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Utilities.Database.LoanGrantorsDB.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Utilities.Database.UserAccountDB.resources
+J:\Final Mock Files\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.csproj.GenerateResource.Cache
