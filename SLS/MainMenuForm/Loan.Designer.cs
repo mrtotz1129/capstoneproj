@@ -36,7 +36,6 @@
             this.transaction = new System.Windows.Forms.ToolStripMenuItem();
             this.loanApplication = new System.Windows.Forms.ToolStripMenuItem();
             this.approveReject = new System.Windows.Forms.ToolStripMenuItem();
-            this.releaseAmortization = new System.Windows.Forms.ToolStripMenuItem();
             this.loanPayment = new System.Windows.Forms.ToolStripMenuItem();
             this.loanRestructure = new System.Windows.Forms.ToolStripMenuItem();
             this.reports = new System.Windows.Forms.ToolStripMenuItem();
@@ -80,7 +79,7 @@
             this.chargesModeTerm.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.chargesModeTerm.ForeColor = System.Drawing.Color.MidnightBlue;
             this.chargesModeTerm.Name = "chargesModeTerm";
-            this.chargesModeTerm.Size = new System.Drawing.Size(250, 24);
+            this.chargesModeTerm.Size = new System.Drawing.Size(249, 24);
             this.chargesModeTerm.Text = "Charges, Mode and Term";
             this.chargesModeTerm.Click += new System.EventHandler(this.modeTermPayment_Click);
             // 
@@ -90,7 +89,7 @@
             this.loanType.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.loanType.ForeColor = System.Drawing.Color.MidnightBlue;
             this.loanType.Name = "loanType";
-            this.loanType.Size = new System.Drawing.Size(250, 24);
+            this.loanType.Size = new System.Drawing.Size(249, 24);
             this.loanType.Text = "Loan Type";
             this.loanType.Click += new System.EventHandler(this.loanType_Click);
             // 
@@ -101,13 +100,12 @@
             this.transaction.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.loanApplication,
             this.approveReject,
-            this.releaseAmortization,
             this.loanPayment,
             this.loanRestructure});
             this.transaction.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.transaction.ForeColor = System.Drawing.Color.MidnightBlue;
             this.transaction.Name = "transaction";
-            this.transaction.Size = new System.Drawing.Size(100, 24);
+            this.transaction.Size = new System.Drawing.Size(99, 24);
             this.transaction.Text = "Transaction";
             // 
             // loanApplication
@@ -116,7 +114,7 @@
             this.loanApplication.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.loanApplication.ForeColor = System.Drawing.Color.MidnightBlue;
             this.loanApplication.Name = "loanApplication";
-            this.loanApplication.Size = new System.Drawing.Size(232, 24);
+            this.loanApplication.Size = new System.Drawing.Size(193, 24);
             this.loanApplication.Text = "Loan Application";
             this.loanApplication.Click += new System.EventHandler(this.loanApplication_Click);
             // 
@@ -126,19 +124,9 @@
             this.approveReject.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.approveReject.ForeColor = System.Drawing.Color.MidnightBlue;
             this.approveReject.Name = "approveReject";
-            this.approveReject.Size = new System.Drawing.Size(232, 24);
+            this.approveReject.Size = new System.Drawing.Size(193, 24);
             this.approveReject.Text = "Approve / Reject";
             this.approveReject.Click += new System.EventHandler(this.approveReject_Click);
-            // 
-            // releaseAmortization
-            // 
-            this.releaseAmortization.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.releaseAmortization.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.releaseAmortization.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.releaseAmortization.Name = "releaseAmortization";
-            this.releaseAmortization.Size = new System.Drawing.Size(232, 24);
-            this.releaseAmortization.Text = "Release / Amortization";
-            this.releaseAmortization.Click += new System.EventHandler(this.releaseAmortization_Click);
             // 
             // loanPayment
             // 
@@ -146,7 +134,7 @@
             this.loanPayment.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.loanPayment.ForeColor = System.Drawing.Color.MidnightBlue;
             this.loanPayment.Name = "loanPayment";
-            this.loanPayment.Size = new System.Drawing.Size(232, 24);
+            this.loanPayment.Size = new System.Drawing.Size(193, 24);
             this.loanPayment.Text = "Loan Payment";
             this.loanPayment.Click += new System.EventHandler(this.loanPayment_Click);
             // 
@@ -156,7 +144,7 @@
             this.loanRestructure.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.loanRestructure.ForeColor = System.Drawing.Color.MidnightBlue;
             this.loanRestructure.Name = "loanRestructure";
-            this.loanRestructure.Size = new System.Drawing.Size(232, 24);
+            this.loanRestructure.Size = new System.Drawing.Size(193, 24);
             this.loanRestructure.Text = "Loan Restructure";
             this.loanRestructure.Click += new System.EventHandler(this.loanRestructure_Click);
             // 
@@ -220,7 +208,6 @@
         private System.Windows.Forms.ToolStripMenuItem loanType;
         private System.Windows.Forms.ToolStripMenuItem loanApplication;
         private System.Windows.Forms.ToolStripMenuItem approveReject;
-        private System.Windows.Forms.ToolStripMenuItem releaseAmortization;
         private System.Windows.Forms.ToolStripMenuItem loanPayment;
         private System.Windows.Forms.ToolStripMenuItem loanRestructure;
     }

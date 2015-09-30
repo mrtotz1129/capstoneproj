@@ -14,9 +14,8 @@ namespace SLS.Loan.Application
     public partial class LoanType : Form
     {
         DataTable table = new DataTable();
-        String[] chargesArr, modeArr;
+        String[]  modeArr;
         Int32[] termArr;
-        Int32 charges, term, mode;
 
         public LoanType()
         {
@@ -412,7 +411,7 @@ namespace SLS.Loan.Application
                         sInd = 0;
                         for (int i = 0; i < cListTerm.Items.Count; i++)
                         {
-                            if (cListMode.GetItemCheckState(i) == CheckState.Checked)
+                            if (cListTerm.GetItemCheckState(i) == CheckState.Checked)
                             {
                                 termArr[sInd] = Convert.ToInt32(cListTerm.Items[i].ToString());
                                 sInd++;

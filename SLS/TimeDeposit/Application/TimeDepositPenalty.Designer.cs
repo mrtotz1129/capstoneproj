@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.panel3 = new System.Windows.Forms.Panel();
+            this.er3 = new System.Windows.Forms.Label();
+            this.er2 = new System.Windows.Forms.Label();
+            this.er1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtMax = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
@@ -39,9 +42,6 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
-            this.er1 = new System.Windows.Forms.Label();
-            this.er2 = new System.Windows.Forms.Label();
-            this.er3 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,6 +66,42 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(406, 221);
             this.panel3.TabIndex = 3;
+            // 
+            // er3
+            // 
+            this.er3.AutoSize = true;
+            this.er3.BackColor = System.Drawing.Color.Transparent;
+            this.er3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.er3.ForeColor = System.Drawing.Color.White;
+            this.er3.Location = new System.Drawing.Point(367, 121);
+            this.er3.Name = "er3";
+            this.er3.Size = new System.Drawing.Size(13, 17);
+            this.er3.TabIndex = 81;
+            this.er3.Text = "*";
+            // 
+            // er2
+            // 
+            this.er2.AutoSize = true;
+            this.er2.BackColor = System.Drawing.Color.Transparent;
+            this.er2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.er2.ForeColor = System.Drawing.Color.White;
+            this.er2.Location = new System.Drawing.Point(367, 86);
+            this.er2.Name = "er2";
+            this.er2.Size = new System.Drawing.Size(13, 17);
+            this.er2.TabIndex = 80;
+            this.er2.Text = "*";
+            // 
+            // er1
+            // 
+            this.er1.AutoSize = true;
+            this.er1.BackColor = System.Drawing.Color.Transparent;
+            this.er1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.er1.ForeColor = System.Drawing.Color.White;
+            this.er1.Location = new System.Drawing.Point(367, 47);
+            this.er1.Name = "er1";
+            this.er1.Size = new System.Drawing.Size(13, 17);
+            this.er1.TabIndex = 79;
+            this.er1.Text = "*";
             // 
             // label2
             // 
@@ -196,42 +232,6 @@
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // er1
-            // 
-            this.er1.AutoSize = true;
-            this.er1.BackColor = System.Drawing.Color.Transparent;
-            this.er1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.er1.ForeColor = System.Drawing.Color.White;
-            this.er1.Location = new System.Drawing.Point(367, 47);
-            this.er1.Name = "er1";
-            this.er1.Size = new System.Drawing.Size(13, 17);
-            this.er1.TabIndex = 79;
-            this.er1.Text = "*";
-            // 
-            // er2
-            // 
-            this.er2.AutoSize = true;
-            this.er2.BackColor = System.Drawing.Color.Transparent;
-            this.er2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.er2.ForeColor = System.Drawing.Color.White;
-            this.er2.Location = new System.Drawing.Point(367, 86);
-            this.er2.Name = "er2";
-            this.er2.Size = new System.Drawing.Size(13, 17);
-            this.er2.TabIndex = 80;
-            this.er2.Text = "*";
-            // 
-            // er3
-            // 
-            this.er3.AutoSize = true;
-            this.er3.BackColor = System.Drawing.Color.Transparent;
-            this.er3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.er3.ForeColor = System.Drawing.Color.White;
-            this.er3.Location = new System.Drawing.Point(367, 121);
-            this.er3.Name = "er3";
-            this.er3.Size = new System.Drawing.Size(13, 17);
-            this.er3.TabIndex = 81;
-            this.er3.Text = "*";
-            // 
             // TimeDepositPenalty
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -243,7 +243,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "TimeDepositPenalty";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MemberType";
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

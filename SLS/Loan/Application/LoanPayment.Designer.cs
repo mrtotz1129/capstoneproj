@@ -310,7 +310,7 @@
             this.label10.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label10.Location = new System.Drawing.Point(5, 80);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(136, 21);
+            this.label10.Size = new System.Drawing.Size(138, 21);
             this.label10.TabIndex = 39;
             this.label10.Text = "Amount Tendered:";
             // 
@@ -320,7 +320,7 @@
             this.label9.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label9.Location = new System.Drawing.Point(5, 40);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(137, 21);
+            this.label9.Size = new System.Drawing.Size(138, 21);
             this.label9.TabIndex = 38;
             this.label9.Text = "Number of Period:";
             // 
@@ -395,7 +395,7 @@
             this.label8.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label8.Location = new System.Drawing.Point(4, 156);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(45, 21);
+            this.label8.Size = new System.Drawing.Size(47, 21);
             this.label8.TabIndex = 33;
             this.label8.Text = "Total:";
             // 
@@ -405,7 +405,7 @@
             this.label7.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label7.Location = new System.Drawing.Point(4, 116);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(63, 21);
+            this.label7.Size = new System.Drawing.Size(64, 21);
             this.label7.TabIndex = 32;
             this.label7.Text = "Penalty:";
             // 
@@ -415,7 +415,7 @@
             this.label6.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label6.Location = new System.Drawing.Point(4, 71);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(141, 21);
+            this.label6.Size = new System.Drawing.Size(142, 21);
             this.label6.TabIndex = 31;
             this.label6.Text = "Amount to be Paid:";
             // 
@@ -490,7 +490,7 @@
             this.label3.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label3.Location = new System.Drawing.Point(0, 126);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 21);
+            this.label3.Size = new System.Drawing.Size(84, 21);
             this.label3.TabIndex = 22;
             this.label3.Text = "Loan Type:";
             // 
@@ -605,7 +605,7 @@
             this.label18.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label18.Location = new System.Drawing.Point(13, 305);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(159, 21);
+            this.label18.Size = new System.Drawing.Size(161, 21);
             this.label18.TabIndex = 46;
             this.label18.Text = "Total Amount Unpaid:";
             // 
@@ -615,7 +615,7 @@
             this.label17.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label17.Location = new System.Drawing.Point(12, 267);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(159, 21);
+            this.label17.Size = new System.Drawing.Size(162, 21);
             this.label17.TabIndex = 45;
             this.label17.Text = "Total Penalty Amount:";
             // 
@@ -625,7 +625,7 @@
             this.label16.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label16.Location = new System.Drawing.Point(12, 229);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(184, 21);
+            this.label16.Size = new System.Drawing.Size(186, 21);
             this.label16.TabIndex = 44;
             this.label16.Text = "Total Remaining Amount:";
             // 
@@ -635,7 +635,7 @@
             this.label15.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label15.Location = new System.Drawing.Point(12, 156);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(138, 21);
+            this.label15.Size = new System.Drawing.Size(141, 21);
             this.label15.TabIndex = 43;
             this.label15.Text = "Total Amount Paid:";
             // 
@@ -655,7 +655,7 @@
             this.label13.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label13.Location = new System.Drawing.Point(11, 77);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(141, 21);
+            this.label13.Size = new System.Drawing.Size(142, 21);
             this.label13.TabIndex = 41;
             this.label13.Text = "Last Payment Date:";
             // 
@@ -670,6 +670,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "LoanPayment";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoanRelease";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

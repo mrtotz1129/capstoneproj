@@ -16,10 +16,5 @@ namespace SLS.Loan.Application
         {
             InitializeComponent();
         }
-
-        private void btnDashboard_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
