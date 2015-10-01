@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace SLS.Loan.Application
 {
@@ -19,36 +20,27 @@ namespace SLS.Loan.Application
 
         private void LoanApplicationView_Load(object sender, EventArgs e)
         {
-           
+
 
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
             
         }
 
-        private void fillByToolStripButton_Click(object sender, EventArgs e)
+        public void textBox1_TextChanged(object sender, EventArgs e)
         {
-            try
-            {
-                this.lOANTableAdapter.FillBy(this.sLSDBDataSet1.LOAN);
-            }
-            catch (System.Exception ex)
-            {
-                System.Windows.Forms.MessageBox.Show(ex.Message);
-            }
-
+           
         }
+
+
 
         private void btnLoan_Click(object sender, EventArgs e)
         {
             this.lOANTableAdapter.FillBy(this.sLSDBDataSet1.LOAN);
         }
+
+
     }
 }
