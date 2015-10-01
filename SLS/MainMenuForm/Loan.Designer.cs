@@ -41,6 +41,10 @@
             this.reports = new System.Windows.Forms.ToolStripMenuItem();
             this.queries = new System.Windows.Forms.ToolStripMenuItem();
             this.pnlMain = new System.Windows.Forms.Panel();
+            this.newApplicationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewApplicationsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewApprovedApplicationsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewAllApplicationsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loanMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -112,6 +116,9 @@
             // 
             this.loanApplication.BackColor = System.Drawing.Color.WhiteSmoke;
             this.loanApplication.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.loanApplication.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newApplicationToolStripMenuItem,
+            this.viewApplicationsToolStripMenuItem});
             this.loanApplication.ForeColor = System.Drawing.Color.MidnightBlue;
             this.loanApplication.Name = "loanApplication";
             this.loanApplication.Size = new System.Drawing.Size(193, 24);
@@ -122,6 +129,9 @@
             // 
             this.approveReject.BackColor = System.Drawing.Color.WhiteSmoke;
             this.approveReject.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.approveReject.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.viewApprovedApplicationsToolStripMenuItem,
+            this.viewAllApplicationsToolStripMenuItem});
             this.approveReject.ForeColor = System.Drawing.Color.MidnightBlue;
             this.approveReject.Name = "approveReject";
             this.approveReject.Size = new System.Drawing.Size(193, 24);
@@ -174,6 +184,33 @@
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.Size = new System.Drawing.Size(1360, 551);
             this.pnlMain.TabIndex = 1;
+            this.pnlMain.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMain_Paint);
+            // 
+            // newApplicationToolStripMenuItem
+            // 
+            this.newApplicationToolStripMenuItem.Name = "newApplicationToolStripMenuItem";
+            this.newApplicationToolStripMenuItem.Size = new System.Drawing.Size(199, 24);
+            this.newApplicationToolStripMenuItem.Text = "New Application";
+            this.newApplicationToolStripMenuItem.Click += new System.EventHandler(this.newApplicationToolStripMenuItem_Click);
+            // 
+            // viewApplicationsToolStripMenuItem
+            // 
+            this.viewApplicationsToolStripMenuItem.Name = "viewApplicationsToolStripMenuItem";
+            this.viewApplicationsToolStripMenuItem.Size = new System.Drawing.Size(199, 24);
+            this.viewApplicationsToolStripMenuItem.Text = "View Applications";
+            this.viewApplicationsToolStripMenuItem.Click += new System.EventHandler(this.viewApplicationsToolStripMenuItem_Click);
+            // 
+            // viewApprovedApplicationsToolStripMenuItem
+            // 
+            this.viewApprovedApplicationsToolStripMenuItem.Name = "viewApprovedApplicationsToolStripMenuItem";
+            this.viewApprovedApplicationsToolStripMenuItem.Size = new System.Drawing.Size(271, 24);
+            this.viewApprovedApplicationsToolStripMenuItem.Text = "View Approved Applications";
+            // 
+            // viewAllApplicationsToolStripMenuItem
+            // 
+            this.viewAllApplicationsToolStripMenuItem.Name = "viewAllApplicationsToolStripMenuItem";
+            this.viewAllApplicationsToolStripMenuItem.Size = new System.Drawing.Size(271, 24);
+            this.viewAllApplicationsToolStripMenuItem.Text = "View All Applications";
             // 
             // Loan
             // 
@@ -210,5 +247,9 @@
         private System.Windows.Forms.ToolStripMenuItem approveReject;
         private System.Windows.Forms.ToolStripMenuItem loanPayment;
         private System.Windows.Forms.ToolStripMenuItem loanRestructure;
+        private System.Windows.Forms.ToolStripMenuItem newApplicationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewApplicationsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewApprovedApplicationsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewAllApplicationsToolStripMenuItem;
     }
 }

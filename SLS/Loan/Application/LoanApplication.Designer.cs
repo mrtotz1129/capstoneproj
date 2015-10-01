@@ -95,8 +95,9 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 17;
-            this.button2.Text = "OKAY";
+            this.button2.Text = "SAVE";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -188,7 +189,7 @@
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(37, 248);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 21);
+            this.label7.Size = new System.Drawing.Size(99, 21);
             this.label7.TabIndex = 6;
             this.label7.Text = "Loan Period :";
             // 
@@ -200,7 +201,7 @@
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(37, 293);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(140, 21);
+            this.label6.Size = new System.Drawing.Size(139, 21);
             this.label6.TabIndex = 5;
             this.label6.Text = "Mode of Payment :";
             // 
@@ -236,7 +237,7 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(37, 159);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 21);
+            this.label3.Size = new System.Drawing.Size(105, 21);
             this.label3.TabIndex = 2;
             this.label3.Text = "Type of Loan :";
             // 

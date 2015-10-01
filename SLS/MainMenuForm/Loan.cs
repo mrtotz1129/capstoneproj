@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SLS.Loan.Application;
 
 namespace SLS.MainMenuForm
 {
@@ -112,6 +113,23 @@ namespace SLS.MainMenuForm
             LR.Visible = true;
             pnlMain.Visible = true;
             pnlMain.Controls.Add(LR);
+        }
+
+        private void newApplicationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SLS.Loan.Application.LoanApplication app = new LoanApplication();
+            app.Show();
+        }
+
+        private void pnlMain_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void viewApplicationsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SLS.Loan.Application.LoanApplicationView view = new LoanApplicationView();
+            view.Show();
         }
     }
 }

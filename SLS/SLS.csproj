@@ -57,6 +57,12 @@
     <Compile Include="Connection.Designer.cs">
       <DependentUpon>Connection.cs</DependentUpon>
     </Compile>
+    <Compile Include="Loan\Application\LoanApplicationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loan\Application\LoanApplicationView.Designer.cs">
+      <DependentUpon>LoanApplicationView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Loan\Database\ChargeModeTermDB.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,16 @@
     </Compile>
     <Compile Include="Loan\Database\LoanTypeDB.Designer.cs">
       <DependentUpon>LoanTypeDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SLSDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SLSDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SLSDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SLSDBDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="TimeDeposit\Application\ClosureRenewal.cs">
       <SubType>Form</SubType>
@@ -426,6 +442,9 @@
     <EmbeddedResource Include="Connection.resx">
       <DependentUpon>Connection.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Loan\Application\LoanApplicationView.resx">
+      <DependentUpon>LoanApplicationView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Loan\Database\ChargeModeTermDB.resx">
       <DependentUpon>ChargeModeTermDB.cs</DependentUpon>
     </EmbeddedResource>
@@ -625,6 +644,28 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="SLSDBDataSet.xsc">
+      <DependentUpon>SLSDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SLSDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SLSDBDataSet.xss">
+      <DependentUpon>SLSDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet1.xsc">
+      <DependentUpon>SLSDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SLSDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SLSDBDataSet1.xss">
+      <DependentUpon>SLSDBDataSet1.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
