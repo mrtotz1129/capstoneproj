@@ -53,7 +53,7 @@
             this.txtServer.Name = "txtServer";
             this.txtServer.Size = new System.Drawing.Size(150, 25);
             this.txtServer.TabIndex = 1;
-            this.txtServer.Text = "CLARISSE\\CLARISSE";
+            this.txtServer.Text = "ADMIN-PC\\KENNETH";
             this.txtServer.UseWaitCursor = true;
             // 
             // label2

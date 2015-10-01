@@ -31,7 +31,9 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.btnMemberApp = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -52,12 +54,24 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "MEMBER : TRANSACTION";
             // 
+            // button2
+            // 
+            this.button2.AutoSize = true;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(383, 497);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(136, 27);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Credit  Investigation";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // btnMemberApp
             // 
             this.btnMemberApp.AutoSize = true;
             this.btnMemberApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMemberApp.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMemberApp.Location = new System.Drawing.Point(355, 497);
+            this.btnMemberApp.Location = new System.Drawing.Point(231, 497);
             this.btnMemberApp.Name = "btnMemberApp";
             this.btnMemberApp.Size = new System.Drawing.Size(136, 27);
             this.btnMemberApp.TabIndex = 4;
@@ -65,16 +79,28 @@
             this.btnMemberApp.UseVisualStyleBackColor = true;
             this.btnMemberApp.Click += new System.EventHandler(this.btnMemberApp_Click);
             // 
+            // button4
+            // 
+            this.button4.AutoSize = true;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(535, 497);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(136, 27);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "Approve / Reject";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // button5
             // 
             this.button5.AutoSize = true;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(698, 497);
+            this.button5.Location = new System.Drawing.Point(687, 497);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(136, 27);
             this.button5.TabIndex = 6;
-            this.button5.Text = "Close Account";
+            this.button5.Text = "Membership Payment";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // btnUpdate
@@ -82,7 +108,7 @@
             this.btnUpdate.AutoSize = true;
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(527, 497);
+            this.btnUpdate.Location = new System.Drawing.Point(839, 497);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(136, 27);
             this.btnUpdate.TabIndex = 7;
@@ -95,7 +121,7 @@
             this.button6.AutoSize = true;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(870, 497);
+            this.button6.Location = new System.Drawing.Point(991, 497);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(136, 27);
             this.button6.TabIndex = 8;
@@ -182,7 +208,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1360, 551);
+            this.ClientSize = new System.Drawing.Size(1276, 551);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.cobFilter);
             this.Controls.Add(this.label2);
@@ -190,7 +216,9 @@
             this.Controls.Add(this.button6);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.btnMemberApp);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.MidnightBlue;
@@ -206,7 +234,9 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnMemberApp;
+        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button button6;

@@ -29,11 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.er3 = new System.Windows.Forms.Label();
-            this.er2 = new System.Windows.Forms.Label();
-            this.er1 = new System.Windows.Forms.Label();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
             this.txtMN = new System.Windows.Forms.TextBox();
             this.txtFN = new System.Windows.Forms.TextBox();
             this.txtLN = new System.Windows.Forms.TextBox();
@@ -42,6 +37,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.er1 = new System.Windows.Forms.Label();
+            this.er2 = new System.Windows.Forms.Label();
+            this.er3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,73 +61,11 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(3, 5);
+            this.panel1.Location = new System.Drawing.Point(6, 5);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(633, 290);
             this.panel1.TabIndex = 0;
-            // 
-            // er3
-            // 
-            this.er3.AutoSize = true;
-            this.er3.Font = new System.Drawing.Font("Segoe UI", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.er3.ForeColor = System.Drawing.Color.Red;
-            this.er3.Location = new System.Drawing.Point(559, 140);
-            this.er3.Name = "er3";
-            this.er3.Size = new System.Drawing.Size(14, 17);
-            this.er3.TabIndex = 31;
-            this.er3.Text = "*";
-            this.er3.Visible = false;
-            // 
-            // er2
-            // 
-            this.er2.AutoSize = true;
-            this.er2.Font = new System.Drawing.Font("Segoe UI", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.er2.ForeColor = System.Drawing.Color.Red;
-            this.er2.Location = new System.Drawing.Point(363, 142);
-            this.er2.Name = "er2";
-            this.er2.Size = new System.Drawing.Size(14, 17);
-            this.er2.TabIndex = 30;
-            this.er2.Text = "*";
-            this.er2.Visible = false;
-            // 
-            // er1
-            // 
-            this.er1.AutoSize = true;
-            this.er1.Font = new System.Drawing.Font("Segoe UI", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.er1.ForeColor = System.Drawing.Color.Red;
-            this.er1.Location = new System.Drawing.Point(181, 142);
-            this.er1.Name = "er1";
-            this.er1.Size = new System.Drawing.Size(14, 17);
-            this.er1.TabIndex = 29;
-            this.er1.Text = "*";
-            this.er1.Visible = false;
-            // 
-            // btnClear
-            // 
-            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClear.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.ForeColor = System.Drawing.Color.White;
-            this.btnClear.Location = new System.Drawing.Point(408, 215);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(90, 34);
-            this.btnClear.TabIndex = 17;
-            this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(276, 215);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(90, 34);
-            this.btnCancel.TabIndex = 16;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // txtMN
             // 
@@ -203,11 +141,73 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Credit Investigator:";
             // 
+            // btnCancel
+            // 
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.ForeColor = System.Drawing.Color.White;
+            this.btnCancel.Location = new System.Drawing.Point(276, 215);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(90, 34);
+            this.btnCancel.TabIndex = 16;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // btnClear
+            // 
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClear.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.ForeColor = System.Drawing.Color.White;
+            this.btnClear.Location = new System.Drawing.Point(408, 215);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(90, 34);
+            this.btnClear.TabIndex = 17;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // er1
+            // 
+            this.er1.AutoSize = true;
+            this.er1.Font = new System.Drawing.Font("Segoe UI", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.er1.ForeColor = System.Drawing.Color.Red;
+            this.er1.Location = new System.Drawing.Point(181, 142);
+            this.er1.Name = "er1";
+            this.er1.Size = new System.Drawing.Size(14, 17);
+            this.er1.TabIndex = 29;
+            this.er1.Text = "*";
+            this.er1.Visible = false;
+            // 
+            // er2
+            // 
+            this.er2.AutoSize = true;
+            this.er2.Font = new System.Drawing.Font("Segoe UI", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.er2.ForeColor = System.Drawing.Color.Red;
+            this.er2.Location = new System.Drawing.Point(363, 142);
+            this.er2.Name = "er2";
+            this.er2.Size = new System.Drawing.Size(14, 17);
+            this.er2.TabIndex = 30;
+            this.er2.Text = "*";
+            this.er2.Visible = false;
+            // 
+            // er3
+            // 
+            this.er3.AutoSize = true;
+            this.er3.Font = new System.Drawing.Font("Segoe UI", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.er3.ForeColor = System.Drawing.Color.Red;
+            this.er3.Location = new System.Drawing.Point(559, 140);
+            this.er3.Name = "er3";
+            this.er3.Size = new System.Drawing.Size(14, 17);
+            this.er3.TabIndex = 31;
+            this.er3.Text = "*";
+            this.er3.Visible = false;
+            // 
             // CreditInvestigator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(640, 298);
+            this.ClientSize = new System.Drawing.Size(643, 300);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

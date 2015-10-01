@@ -57,11 +57,23 @@
     <Compile Include="Connection.Designer.cs">
       <DependentUpon>Connection.cs</DependentUpon>
     </Compile>
-    <Compile Include="Loan\Application\LoanApplicationView.cs">
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="depositpersavingstype.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>depositpersavingstype.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Loan\Application\LoanApplicationView.Designer.cs">
-      <DependentUpon>LoanApplicationView.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Loan\Database\ChargeModeTermDB.cs">
       <SubType>Form</SubType>
@@ -81,15 +93,23 @@
     <Compile Include="Loan\Database\LoanTypeDB.Designer.cs">
       <DependentUpon>LoanTypeDB.cs</DependentUpon>
     </Compile>
-    <Compile Include="SLSDBDataSet.Designer.cs">
+    <Compile Include="ReleasedLoans.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SLSDBDataSet.xsd</DependentUpon>
+      <DependentUpon>ReleasedLoans.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
-    <Compile Include="SLSDBDataSet1.Designer.cs">
+    <Compile Include="SummaryOfSavingsDeposit.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SLSDBDataSet1.xsd</DependentUpon>
+      <DependentUpon>SummaryOfSavingsDeposit.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SummaryofSavingsWithdrawal.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SummaryofSavingsWithdrawal.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="TimeDeposit\Application\ClosureRenewal.cs">
       <SubType>Form</SubType>
@@ -442,8 +462,16 @@
     <EmbeddedResource Include="Connection.resx">
       <DependentUpon>Connection.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Loan\Application\LoanApplicationView.resx">
-      <DependentUpon>LoanApplicationView.cs</DependentUpon>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="depositpersavingstype.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>depositpersavingstype.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loan\Database\ChargeModeTermDB.resx">
       <DependentUpon>ChargeModeTermDB.cs</DependentUpon>
@@ -453,6 +481,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Loan\Database\LoanTypeDB.resx">
       <DependentUpon>LoanTypeDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReleasedLoans.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReleasedLoans.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SummaryOfSavingsDeposit.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SummaryOfSavingsDeposit.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SummaryofSavingsWithdrawal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SummaryofSavingsWithdrawal.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="TimeDeposit\Application\ClosureRenewal.resx">
       <DependentUpon>ClosureRenewal.cs</DependentUpon>
@@ -644,28 +684,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="SLSDBDataSet.xsc">
-      <DependentUpon>SLSDBDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SLSDBDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="SLSDBDataSet.xss">
-      <DependentUpon>SLSDBDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet1.xsc">
-      <DependentUpon>SLSDBDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SLSDBDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="SLSDBDataSet1.xss">
-      <DependentUpon>SLSDBDataSet1.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

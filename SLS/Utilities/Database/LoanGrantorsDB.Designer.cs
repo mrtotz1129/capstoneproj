@@ -48,7 +48,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(216, 32);
+            this.label1.Size = new System.Drawing.Size(218, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "LOAN GRANTORS";
             // 
@@ -184,7 +184,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1360, 551);
+            this.ClientSize = new System.Drawing.Size(1284, 551);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.cobFilter);
             this.Controls.Add(this.label2);
