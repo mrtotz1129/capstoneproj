@@ -30,7 +30,25 @@ namespace SLS.Loan.Application
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            (dataGridView1.DataSource as DataTable).DefaultView.RowFilter = string.Format("Field = '{0}'", textBox1.Text);
+            
+        }
+
+        private void fillByToolStripButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.lOANTableAdapter.FillBy(this.sLSDBDataSet1.LOAN);
+            }
+            catch (System.Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(ex.Message);
+            }
+
+        }
+
+        private void btnLoan_Click(object sender, EventArgs e)
+        {
+            this.lOANTableAdapter.FillBy(this.sLSDBDataSet1.LOAN);
         }
     }
 }

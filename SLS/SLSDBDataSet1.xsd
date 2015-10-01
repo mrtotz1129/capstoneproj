@@ -87,7 +87,16 @@ SELECT LoanID, LoanTypeID, applyAmount, TermID, ModeID, dateApplied, isApproved,
               <Mapping SourceColumn="MemberID" DataSetColumn="MemberID" />
               <Mapping SourceColumn="reason" DataSetColumn="reason" />
             </Mappings>
-            <Sources />
+            <Sources>
+              <DbSource ConnectionRef="SLSDBConnectionString (Settings)" DbObjectName="SLSDB.dbo.LOAN" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT LoanID, LoanTypeID, applyAmount, TermID, ModeID, dateApplied, isApproved, MemberID, reason FROM dbo.LOAN</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="MODETableAdapter" GeneratorDataComponentClassName="MODETableAdapter" Name="MODE" UserDataComponentName="MODETableAdapter">
             <MainSource>
@@ -210,7 +219,7 @@ SELECT TermID, noOfDays, status FROM TERM WHERE (TermID = @TermID)</CommandText>
   <xs:element name="SLSDBDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SLSDBDataSet1" msprop:Generator_UserDSName="SLSDBDataSet1">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="LOAN" msprop:Generator_TableClassName="LOANDataTable" msprop:Generator_TableVarName="tableLOAN" msprop:Generator_TablePropName="LOAN" msprop:Generator_RowDeletingName="LOANRowDeleting" msprop:Generator_RowChangingName="LOANRowChanging" msprop:Generator_RowEvHandlerName="LOANRowChangeEventHandler" msprop:Generator_RowDeletedName="LOANRowDeleted" msprop:Generator_UserTableName="LOAN" msprop:Generator_RowChangedName="LOANRowChanged" msprop:Generator_RowEvArgName="LOANRowChangeEvent" msprop:Generator_RowClassName="LOANRow">
+        <xs:element name="LOAN" msprop:Generator_TableClassName="LOANDataTable" msprop:Generator_TableVarName="tableLOAN" msprop:Generator_RowChangedName="LOANRowChanged" msprop:Generator_TablePropName="LOAN" msprop:Generator_RowDeletingName="LOANRowDeleting" msprop:Generator_RowChangingName="LOANRowChanging" msprop:Generator_RowEvHandlerName="LOANRowChangeEventHandler" msprop:Generator_RowDeletedName="LOANRowDeleted" msprop:Generator_RowClassName="LOANRow" msprop:Generator_UserTableName="LOAN" msprop:Generator_RowEvArgName="LOANRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="LoanID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnLoanID" msprop:Generator_ColumnPropNameInRow="LoanID" msprop:Generator_ColumnPropNameInTable="LoanIDColumn" msprop:Generator_UserColumnName="LoanID" type="xs:int" />
@@ -231,7 +240,7 @@ SELECT TermID, noOfDays, status FROM TERM WHERE (TermID = @TermID)</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="MODE" msprop:Generator_TableClassName="MODEDataTable" msprop:Generator_TableVarName="tableMODE" msprop:Generator_TablePropName="MODE" msprop:Generator_RowDeletingName="MODERowDeleting" msprop:Generator_RowChangingName="MODERowChanging" msprop:Generator_RowEvHandlerName="MODERowChangeEventHandler" msprop:Generator_RowDeletedName="MODERowDeleted" msprop:Generator_UserTableName="MODE" msprop:Generator_RowChangedName="MODERowChanged" msprop:Generator_RowEvArgName="MODERowChangeEvent" msprop:Generator_RowClassName="MODERow">
+        <xs:element name="MODE" msprop:Generator_TableClassName="MODEDataTable" msprop:Generator_TableVarName="tableMODE" msprop:Generator_RowChangedName="MODERowChanged" msprop:Generator_TablePropName="MODE" msprop:Generator_RowDeletingName="MODERowDeleting" msprop:Generator_RowChangingName="MODERowChanging" msprop:Generator_RowEvHandlerName="MODERowChangeEventHandler" msprop:Generator_RowDeletedName="MODERowDeleted" msprop:Generator_RowClassName="MODERow" msprop:Generator_UserTableName="MODE" msprop:Generator_RowEvArgName="MODERowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ModeID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnModeID" msprop:Generator_ColumnPropNameInRow="ModeID" msprop:Generator_ColumnPropNameInTable="ModeIDColumn" msprop:Generator_UserColumnName="ModeID" type="xs:int" />
@@ -247,7 +256,7 @@ SELECT TermID, noOfDays, status FROM TERM WHERE (TermID = @TermID)</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="TERM" msprop:Generator_TableClassName="TERMDataTable" msprop:Generator_TableVarName="tableTERM" msprop:Generator_TablePropName="TERM" msprop:Generator_RowDeletingName="TERMRowDeleting" msprop:Generator_RowChangingName="TERMRowChanging" msprop:Generator_RowEvHandlerName="TERMRowChangeEventHandler" msprop:Generator_RowDeletedName="TERMRowDeleted" msprop:Generator_UserTableName="TERM" msprop:Generator_RowChangedName="TERMRowChanged" msprop:Generator_RowEvArgName="TERMRowChangeEvent" msprop:Generator_RowClassName="TERMRow">
+        <xs:element name="TERM" msprop:Generator_TableClassName="TERMDataTable" msprop:Generator_TableVarName="tableTERM" msprop:Generator_RowChangedName="TERMRowChanged" msprop:Generator_TablePropName="TERM" msprop:Generator_RowDeletingName="TERMRowDeleting" msprop:Generator_RowChangingName="TERMRowChanging" msprop:Generator_RowEvHandlerName="TERMRowChangeEventHandler" msprop:Generator_RowDeletedName="TERMRowDeleted" msprop:Generator_RowClassName="TERMRow" msprop:Generator_UserTableName="TERM" msprop:Generator_RowEvArgName="TERMRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="TermID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnTermID" msprop:Generator_ColumnPropNameInRow="TermID" msprop:Generator_ColumnPropNameInTable="TermIDColumn" msprop:Generator_UserColumnName="TermID" type="xs:int" />
@@ -273,8 +282,8 @@ SELECT TermID, noOfDays, status FROM TERM WHERE (TermID = @TermID)</CommandText>
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="FK_Loan_ModeID" msdata:parent="MODE" msdata:child="LOAN" msdata:parentkey="ModeID" msdata:childkey="ModeID" msprop:Generator_UserChildTable="LOAN" msprop:Generator_ChildPropName="GetLOANRows" msprop:Generator_UserRelationName="FK_Loan_ModeID" msprop:Generator_RelationVarName="relationFK_Loan_ModeID" msprop:Generator_UserParentTable="MODE" msprop:Generator_ParentPropName="MODERow" />
-      <msdata:Relationship name="FK_Loan_TermID" msdata:parent="TERM" msdata:child="LOAN" msdata:parentkey="TermID" msdata:childkey="TermID" msprop:Generator_UserChildTable="LOAN" msprop:Generator_ChildPropName="GetLOANRows" msprop:Generator_UserRelationName="FK_Loan_TermID" msprop:Generator_RelationVarName="relationFK_Loan_TermID" msprop:Generator_UserParentTable="TERM" msprop:Generator_ParentPropName="TERMRow" />
+      <msdata:Relationship name="FK_Loan_ModeID" msdata:parent="MODE" msdata:child="LOAN" msdata:parentkey="ModeID" msdata:childkey="ModeID" msprop:Generator_UserChildTable="LOAN" msprop:Generator_ChildPropName="GetLOANRows" msprop:Generator_UserRelationName="FK_Loan_ModeID" msprop:Generator_ParentPropName="MODERow" msprop:Generator_RelationVarName="relationFK_Loan_ModeID" msprop:Generator_UserParentTable="MODE" />
+      <msdata:Relationship name="FK_Loan_TermID" msdata:parent="TERM" msdata:child="LOAN" msdata:parentkey="TermID" msdata:childkey="TermID" msprop:Generator_UserChildTable="LOAN" msprop:Generator_ChildPropName="GetLOANRows" msprop:Generator_UserRelationName="FK_Loan_TermID" msprop:Generator_ParentPropName="TERMRow" msprop:Generator_RelationVarName="relationFK_Loan_TermID" msprop:Generator_UserParentTable="TERM" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>
