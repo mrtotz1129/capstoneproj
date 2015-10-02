@@ -16,14 +16,14 @@ namespace SLS {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class SummaryofSavingsWithdrawal : ReportClass {
+    public class SummaryOfSavingsWithdrawal : ReportClass {
         
-        public SummaryofSavingsWithdrawal() {
+        public SummaryOfSavingsWithdrawal() {
         }
         
         public override string ResourceName {
             get {
-                return "SummaryofSavingsWithdrawal.rpt";
+                return "SummaryOfSavingsWithdrawal.rpt";
             }
             set {
                 // Do nothing
@@ -41,7 +41,7 @@ namespace SLS {
         
         public override string FullResourceName {
             get {
-                return "SLS.SummaryofSavingsWithdrawal.rpt";
+                return "SLS.SummaryOfSavingsWithdrawal.rpt";
             }
             set {
                 // Do nothing
@@ -87,12 +87,28 @@ namespace SLS {
                 return this.ReportDefinition.Sections[4];
             }
         }
+        
+        [Browsable(false)]
+        [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
+        public CrystalDecisions.Shared.IParameterField Parameter_DateFrom {
+            get {
+                return this.DataDefinition.ParameterFields[0];
+            }
+        }
+        
+        [Browsable(false)]
+        [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
+        public CrystalDecisions.Shared.IParameterField Parameter_DateTo {
+            get {
+                return this.DataDefinition.ParameterFields[1];
+            }
+        }
     }
     
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
-    public class CachedSummaryofSavingsWithdrawal : Component, ICachedReport {
+    public class CachedSummaryOfSavingsWithdrawal : Component, ICachedReport {
         
-        public CachedSummaryofSavingsWithdrawal() {
+        public CachedSummaryOfSavingsWithdrawal() {
         }
         
         [Browsable(false)]
@@ -129,7 +145,7 @@ namespace SLS {
         }
         
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
-            SummaryofSavingsWithdrawal rpt = new SummaryofSavingsWithdrawal();
+            SummaryOfSavingsWithdrawal rpt = new SummaryOfSavingsWithdrawal();
             rpt.Site = this.Site;
             return rpt;
         }

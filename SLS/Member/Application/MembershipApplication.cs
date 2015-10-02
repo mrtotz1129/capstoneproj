@@ -1270,12 +1270,14 @@ namespace SLS.Member.Application
                     parameters = new Dictionary<string, object>();
                     parameters.Add("@MemberID", SLS.Static.ID);
                     result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
+                    
                     //Contact Information Delete
                     con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
                     sql = "DELETE FROM CONTACTINFORMATION WHERE MemberID = @MemberID";
                     parameters = new Dictionary<string, object>();
                     parameters.Add("@MemberID", SLS.Static.ID);
                     result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
+                    
                     //Employment Information Delete
                     con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
                     sql = "SELECT EmploymentInformationID FROM EMPLOYMENTINFORMATION WHERE MemberID = " + SLS.Static.ID + "";
@@ -1289,11 +1291,14 @@ namespace SLS.Member.Application
                         parameters = new Dictionary<string, object>();
                         parameters.Add("employID", SLS.Static.ID);
                         result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
+                        
                         //Self-Employed Delete
                         sql = "DELETE FROM SELFEMPLOYED WHERE EmploymentInformationID = employID";
                         parameters = new Dictionary<string, object>();
                         parameters.Add("employID", SLS.Static.ID);
                         result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
+                       
+
                     }
                     sql = "DELETE FROM EMPLOYMENTINFORMATION WHERE MemberID = @MemberID";
                     parameters = new Dictionary<string, object>();

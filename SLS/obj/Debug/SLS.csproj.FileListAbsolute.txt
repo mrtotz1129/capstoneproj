@@ -644,8 +644,16 @@ C:\Users\Admin\Desktop\capstoneproj-master\SLS\obj\Debug\SLS.Utilities.Database.
 C:\Users\Admin\Desktop\capstoneproj-master\SLS\obj\Debug\SLS.csproj.GenerateResource.Cache
 C:\Users\Admin\Desktop\capstoneproj-master\SLS\bin\Debug\SLS.exe
 C:\Users\Admin\Desktop\capstoneproj-master\SLS\bin\Debug\SLS.pdb
+<<<<<<< Updated upstream
 D:\capstoneproj\SLS\obj\Debug\SLS.Connection.resources
 D:\capstoneproj\SLS\obj\Debug\SLS.Form1.resources
+=======
+D:\capstoneproj\SLS\bin\Debug\SLS.exe.config
+D:\capstoneproj\SLS\bin\Debug\SLS.exe
+D:\capstoneproj\SLS\bin\Debug\SLS.pdb
+D:\capstoneproj\SLS\obj\Debug\SLS.csprojResolveAssemblyReference.cache
+D:\capstoneproj\SLS\obj\Debug\SLS.Connection.resources
+>>>>>>> Stashed changes
 D:\capstoneproj\SLS\obj\Debug\SLS.Loan.Database.ChargeModeTermDB.resources
 D:\capstoneproj\SLS\obj\Debug\SLS.Loan.Database.LoanApplicationDB.resources
 D:\capstoneproj\SLS\obj\Debug\SLS.Loan.Database.LoanTypeDB.resources
@@ -708,6 +716,7 @@ D:\capstoneproj\SLS\obj\Debug\SLS.Utilities.Database.CreditInvestigationDB.resou
 D:\capstoneproj\SLS\obj\Debug\SLS.Utilities.Database.LoanGrantorsDB.resources
 D:\capstoneproj\SLS\obj\Debug\SLS.Utilities.Database.UserAccountDB.resources
 D:\capstoneproj\SLS\obj\Debug\SLS.csproj.GenerateResource.Cache
+<<<<<<< Updated upstream
 D:\capstoneproj\SLS\bin\Debug\SLS.exe.config
 D:\capstoneproj\SLS\obj\Debug\SLS.csprojResolveAssemblyReference.cache
 D:\capstoneproj\SLS\obj\Debug\SLS.Member.Application.MemberReport.resources
@@ -715,3 +724,11 @@ D:\capstoneproj\SLS\bin\Debug\SLS.exe
 D:\capstoneproj\SLS\bin\Debug\SLS.pdb
 D:\capstoneproj\SLS\obj\Debug\SLS.exe
 D:\capstoneproj\SLS\obj\Debug\SLS.pdb
+=======
+D:\capstoneproj\SLS\obj\Debug\SLS.exe
+D:\capstoneproj\SLS\obj\Debug\SLS.pdb
+D:\capstoneproj\SLS\obj\Debug\SLS.Member.Application.MemberReport.resources
+D:\capstoneproj\SLS\obj\Debug\SLS.SavingsDeposit.Application.DepositReport.resources
+D:\capstoneproj\SLS\obj\Debug\SLS.SavingsDeposit.Application.WithdrawReport.resources
+D:\capstoneproj\SLS\obj\Debug\SLS.Loan.Application.LoanReleaseReport.resources
+>>>>>>> Stashed changes

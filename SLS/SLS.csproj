@@ -57,23 +57,11 @@
     <Compile Include="Connection.Designer.cs">
       <DependentUpon>Connection.cs</DependentUpon>
     </Compile>
-    <Compile Include="CrystalReport1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CrystalReport1.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="depositpersavingstype.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>depositpersavingstype.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Loan\Application\LoanReleaseReport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Loan\Application\LoanReleaseReport.Designer.cs">
+      <DependentUpon>LoanReleaseReport.cs</DependentUpon>
     </Compile>
     <Compile Include="Loan\Database\ChargeModeTermDB.cs">
       <SubType>Form</SubType>
@@ -99,10 +87,32 @@
     <Compile Include="Member\Application\MemberReport.Designer.cs">
       <DependentUpon>MemberReport.cs</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Include="ReleasedLoans.cs">
+=======
+    <Compile Include="SavingsDeposit\Application\DepositReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SavingsDeposit\Application\DepositReport.Designer.cs">
+      <DependentUpon>DepositReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SavingsDeposit\Application\WithdrawReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SavingsDeposit\Application\WithdrawReport.Designer.cs">
+      <DependentUpon>WithdrawReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SummaryOfMember.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ReleasedLoans.rpt</DependentUpon>
+      <DependentUpon>SummaryOfMember.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SummaryOfReleasedLoans.cs">
+>>>>>>> Stashed changes
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SummaryOfReleasedLoans.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="SLSDBDataSet.cs">
@@ -154,10 +164,10 @@
       <DependentUpon>SummaryOfSavingsDeposit.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="SummaryofSavingsWithdrawal.cs">
+    <Compile Include="SummaryOfSavingsWithdrawal.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SummaryofSavingsWithdrawal.rpt</DependentUpon>
+      <DependentUpon>SummaryOfSavingsWithdrawal.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="TimeDeposit\Application\ClosureRenewal.cs">
@@ -511,16 +521,8 @@
     <EmbeddedResource Include="Connection.resx">
       <DependentUpon>Connection.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CrystalReport1.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="depositpersavingstype.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>depositpersavingstype.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Loan\Application\LoanReleaseReport.resx">
+      <DependentUpon>LoanReleaseReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loan\Database\ChargeModeTermDB.resx">
       <DependentUpon>ChargeModeTermDB.cs</DependentUpon>
@@ -534,17 +536,31 @@
     <EmbeddedResource Include="Member\Application\MemberReport.resx">
       <DependentUpon>MemberReport.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< Updated upstream
     <EmbeddedResource Include="ReleasedLoans.rpt">
+=======
+    <EmbeddedResource Include="SavingsDeposit\Application\DepositReport.resx">
+      <DependentUpon>DepositReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingsDeposit\Application\WithdrawReport.resx">
+      <DependentUpon>WithdrawReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SummaryOfMember.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>ReleasedLoans.cs</LastGenOutput>
+      <LastGenOutput>SummaryOfMember.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SummaryOfReleasedLoans.rpt">
+>>>>>>> Stashed changes
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SummaryOfReleasedLoans.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="SummaryOfSavingsDeposit.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>SummaryOfSavingsDeposit.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="SummaryofSavingsWithdrawal.rpt">
+    <EmbeddedResource Include="SummaryOfSavingsWithdrawal.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>SummaryofSavingsWithdrawal.cs</LastGenOutput>
+      <LastGenOutput>SummaryOfSavingsWithdrawal.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="TimeDeposit\Application\ClosureRenewal.resx">
       <DependentUpon>ClosureRenewal.cs</DependentUpon>

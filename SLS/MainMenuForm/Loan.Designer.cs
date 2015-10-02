@@ -42,6 +42,7 @@
             this.reports = new System.Windows.Forms.ToolStripMenuItem();
             this.queries = new System.Windows.Forms.ToolStripMenuItem();
             this.pnlMain = new System.Windows.Forms.Panel();
+            this.loanReleaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loanMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,7 +58,7 @@
             this.queries});
             this.loanMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.loanMenuStrip.Name = "loanMenuStrip";
-            this.loanMenuStrip.Size = new System.Drawing.Size(1360, 28);
+            this.loanMenuStrip.Size = new System.Drawing.Size(1276, 28);
             this.loanMenuStrip.TabIndex = 0;
             this.loanMenuStrip.Text = "menuStrip1";
             // 
@@ -164,6 +165,8 @@
             // 
             this.reports.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("reports.BackgroundImage")));
             this.reports.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.reports.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.loanReleaseToolStripMenuItem});
             this.reports.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reports.ForeColor = System.Drawing.Color.MidnightBlue;
             this.reports.Name = "reports";
@@ -187,12 +190,19 @@
             this.pnlMain.Size = new System.Drawing.Size(1360, 551);
             this.pnlMain.TabIndex = 1;
             // 
+            // loanReleaseToolStripMenuItem
+            // 
+            this.loanReleaseToolStripMenuItem.Name = "loanReleaseToolStripMenuItem";
+            this.loanReleaseToolStripMenuItem.Size = new System.Drawing.Size(166, 24);
+            this.loanReleaseToolStripMenuItem.Text = "Loan Release";
+            this.loanReleaseToolStripMenuItem.Click += new System.EventHandler(this.loanReleaseToolStripMenuItem_Click);
+            // 
             // Loan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(1360, 581);
+            this.ClientSize = new System.Drawing.Size(1276, 581);
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.loanMenuStrip);
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -223,5 +233,6 @@
         private System.Windows.Forms.ToolStripMenuItem releaseAmortization;
         private System.Windows.Forms.ToolStripMenuItem loanPayment;
         private System.Windows.Forms.ToolStripMenuItem loanRestructure;
+        private System.Windows.Forms.ToolStripMenuItem loanReleaseToolStripMenuItem;
     }
 }

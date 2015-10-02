@@ -53,7 +53,7 @@
             this.reports});
             this.memberMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.memberMenuStrip.Name = "memberMenuStrip";
-            this.memberMenuStrip.Size = new System.Drawing.Size(1360, 28);
+            this.memberMenuStrip.Size = new System.Drawing.Size(1276, 28);
             this.memberMenuStrip.TabIndex = 0;
             this.memberMenuStrip.Text = "memberMenuStrip";
             // 
@@ -88,6 +88,7 @@
             this.reports.Name = "reports";
             this.reports.Size = new System.Drawing.Size(73, 24);
             this.reports.Text = "Reports";
+            this.reports.Click += new System.EventHandler(this.reports_Click);
             // 
             // membershipInformation
             // 
@@ -151,7 +152,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(1360, 581);
+            this.ClientSize = new System.Drawing.Size(1276, 581);
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.memberMenuStrip);
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

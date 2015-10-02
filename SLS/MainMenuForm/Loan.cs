@@ -113,5 +113,13 @@ namespace SLS.MainMenuForm
             pnlMain.Visible = true;
             pnlMain.Controls.Add(LR);
         }
+
+        private void loanReleaseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var child = new SLS.Loan.Application.LoanReleaseReport();
+            child.ShowDialog();
+        }
+
+
     }
 }
