@@ -15,13 +15,10 @@ namespace SLS
         static void Main()
         {
             Application.EnableVisualStyles();
-<<<<<<< Updated upstream
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Login());
-=======
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Connection());
->>>>>>> Stashed changes
         }
     }
 }

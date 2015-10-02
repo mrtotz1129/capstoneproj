@@ -57,6 +57,9 @@
     <Compile Include="Connection.Designer.cs">
       <DependentUpon>Connection.cs</DependentUpon>
     </Compile>
+    <Compile Include="Loan\Application\LoanApplicationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Loan\Application\LoanReleaseReport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,9 +90,8 @@
     <Compile Include="Member\Application\MemberReport.Designer.cs">
       <DependentUpon>MemberReport.cs</DependentUpon>
     </Compile>
-<<<<<<< Updated upstream
     <Compile Include="ReleasedLoans.cs">
-=======
+    </Compile>
     <Compile Include="SavingsDeposit\Application\DepositReport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,14 +108,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SummaryOfMember.rpt</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="SummaryOfReleasedLoans.cs">
->>>>>>> Stashed changes
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SummaryOfReleasedLoans.rpt</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="SLSDBDataSet.cs">
       <DependentUpon>SLSDBDataSet.xsd</DependentUpon>
@@ -162,13 +161,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SummaryOfSavingsDeposit.rpt</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="SummaryOfSavingsWithdrawal.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SummaryOfSavingsWithdrawal.rpt</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="TimeDeposit\Application\ClosureRenewal.cs">
       <SubType>Form</SubType>
@@ -536,9 +533,8 @@
     <EmbeddedResource Include="Member\Application\MemberReport.resx">
       <DependentUpon>MemberReport.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< Updated upstream
     <EmbeddedResource Include="ReleasedLoans.rpt">
-=======
+    </EmbeddedResource>
     <EmbeddedResource Include="SavingsDeposit\Application\DepositReport.resx">
       <DependentUpon>DepositReport.cs</DependentUpon>
     </EmbeddedResource>
@@ -550,7 +546,6 @@
       <LastGenOutput>SummaryOfMember.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="SummaryOfReleasedLoans.rpt">
->>>>>>> Stashed changes
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>SummaryOfReleasedLoans.cs</LastGenOutput>
     </EmbeddedResource>
