@@ -73,17 +73,5 @@ namespace SLS.MainMenuForm
             pnlMain.Visible = true;
             pnlMain.Controls.Add(Mt);
         }
-
-        private void depositToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var child = new SLS.SavingsDeposit.Application.DepositReport();
-            child.ShowDialog();
-        }
-
-        private void withdrawToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var child = new SLS.SavingsDeposit.Application.WithdrawReport();
-            child.ShowDialog();
-        }
     }
 }

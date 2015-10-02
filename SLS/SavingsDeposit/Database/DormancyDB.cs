@@ -29,7 +29,11 @@ namespace SLS.SavingsDeposit.Database
         }
         public void loadDatabase()
         {
-            this.dORMANCYVIEWTableAdapter.Fill(this.sLSDBDataSet4.DORMANCYVIEW);
+            SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
+            String sql = SLS.Static.sql;
+            DataSet ds = con.executeDataSet(sql, "Dormancy");
+            dataGridView1.DataSource = ds;
+            dataGridView1.DataMember = "Dormancy";
             dataGridView1.Columns[0].Visible = false;
             dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
         }
@@ -187,13 +191,6 @@ namespace SLS.SavingsDeposit.Database
                     btnStatus.Text = "ACTIVATE";
                 }
             }
-        }
-
-        private void DormancyDB_Load(object sender, EventArgs e)
-        {
-            // TODO: This line of code loads data into the 'sLSDBDataSet4.DORMANCYVIEW' table. You can move, or remove it, as needed.
-            
-
         }
     }
 }

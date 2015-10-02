@@ -33,7 +33,11 @@ namespace SLS.Utilities.Database
         {
             if (SLS.Static.hasSearch == 0)
             {
-                this.uSERVIEWTableAdapter.Fill(this.sLSDBDataSet7.USERVIEW);
+                SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
+                String sql = SLS.Static.sql;
+                DataSet ds = con.executeDataSet(sql, "User Accounts");
+                dataGridView1.DataSource = ds;
+                dataGridView1.DataMember = "User Accounts";
                 dataGridView1.Columns[0].Visible = false;
                 dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             }
@@ -64,10 +68,17 @@ namespace SLS.Utilities.Database
         }
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            SLS.Static.ID = 0;
-            var child = new SLS.Utilities.Application.UserAccount();
-            child.FormClosed += closedUserAccount;
-            child.ShowDialog();
+            if(SLS.Static.ID != 0)
+            {
+                var child = new SLS.Utilities.Application.UserAccount();
+                child.FormClosed += closedUserAccount;
+                child.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Please select data from the database.", "Error", MessageBoxButtons.OK);
+            }
+            
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -147,13 +158,6 @@ namespace SLS.Utilities.Database
             var child = new SLS.Utilities.Application.ChangePass();
             child.FormClosed += closedUserAccount;
             child.ShowDialog();
-        }
-
-        private void UserAccountDB_Load(object sender, EventArgs e)
-        {
-            // TODO: This line of code loads data into the 'sLSDBDataSet7.USERVIEW' table. You can move, or remove it, as needed.
-            
-
         }
     }
         

@@ -97,9 +97,9 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.Sear);
             this.panel1.Controls.Add(this.label8);
-            this.panel1.Location = new System.Drawing.Point(2, 1);
+            this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(775, 384);
+            this.panel1.Size = new System.Drawing.Size(774, 381);
             this.panel1.TabIndex = 0;
             // 
             // er9

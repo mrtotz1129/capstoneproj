@@ -13,11 +13,9 @@ namespace SLS.Loan.Application
 {
     public partial class LoanType : Form
     {
-        String[] GraceString = { "Per Day", "Per Week", "Per Month", "Per Year" };
         DataTable table = new DataTable();
-        String[] chargesArr, modeArr;
+        String[]  modeArr;
         Int32[] termArr;
-        Int32 charges, term, mode;
 
         public LoanType()
         {
@@ -45,12 +43,6 @@ namespace SLS.Loan.Application
             txtNoOfComaker.Clear();
             txtEntitlement.Clear();
             txtEligibility.Clear();
-
-            ckbGrace.Checked = false;
-            txtGrace.Clear();
-            txtGrace.Enabled = false;
-            cobGrace.Items.Clear();
-            cobGrace.Enabled = false;
 
             ckbMode.Checked = false;
             cListMode.Items.Clear();
@@ -90,7 +82,6 @@ namespace SLS.Loan.Application
                     i += 1;
                 }
             }
-
             if(SLS.Static.ID != 0)
             {
                 con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
@@ -165,18 +156,6 @@ namespace SLS.Loan.Application
                         cListCharges.SetItemChecked(index, true);
                     }
                 }
-
-                defaultGrace();
-            }
-        }
-
-        private void defaultGrace()
-        {
-            txtGrace.Clear();
-            cobGrace.Items.Clear();
-            for (int x = 0; x < GraceString.Length; x++)
-            {
-                cobGrace.Items.Insert(x, "" + GraceString[x]);
             }
         }
 
@@ -394,7 +373,7 @@ namespace SLS.Loan.Application
                 else
                 {
                     SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
-                    String sql = "INSERT INTO LOANTYPE (loanTypeName, minAmount, maxAmount, noOfComaker, entitlement, eligibility, gracePeriod, graceTime, penalty, [status]) VALUES (@loanTypeName, @minAmount, @maxAmount, @noOfComaker, @entitlement, @eligibility, @gracePeriod, @graceTime, @penalty, @status); SELECT CAST(scope_identity() AS int)";
+                    String sql = "INSERT INTO LOANTYPE (loanTypeName, minAmount, maxAmount, noOfComaker, entitlement, eligibility, [status]) VALUES (@loanTypeName, @minAmount, @maxAmount, @noOfComaker, @entitlement, @eligibility, @status); SELECT CAST(scope_identity() AS int)";
                     Dictionary<String, Object> parameters = new Dictionary<string, object>();
                     parameters.Add("@loanTypeName", txtLoanType.Text);
                     parameters.Add("@minAmount", txtMinAmount.Text);
@@ -402,9 +381,6 @@ namespace SLS.Loan.Application
                     parameters.Add("@noOfComaker", txtNoOfComaker.Text);
                     parameters.Add("@entitlement", txtEntitlement.Text);
                     parameters.Add("@eligibility", txtEligibility.Text);
-                    parameters.Add("@gracePeriod", txtGrace.Text);
-                    parameters.Add("@graceTime", cobGrace.SelectedIndex);
-                    parameters.Add("@penalty", txtPenalty.Text);
                     parameters.Add("@status", true);
                     SqlDataReader reader = con.executeReader(sql, parameters);
                     if (reader.HasRows)
@@ -435,7 +411,7 @@ namespace SLS.Loan.Application
                         sInd = 0;
                         for (int i = 0; i < cListTerm.Items.Count; i++)
                         {
-                            if (cListMode.GetItemCheckState(i) == CheckState.Checked)
+                            if (cListTerm.GetItemCheckState(i) == CheckState.Checked)
                             {
                                 termArr[sInd] = Convert.ToInt32(cListTerm.Items[i].ToString());
                                 sInd++;
@@ -470,11 +446,7 @@ namespace SLS.Loan.Application
         {
             Int32 isValid = 0;
             SLS.Validate.Alpha ctrlString = new SLS.Validate.Alpha();
-            if(ctrlString.checkString(txtLoanType.Text) == 1)
-            {
-                isValid = 1;
-                er1.Visible = true;
-            }
+            isValid = ctrlString.checkString(txtLoanType.Text);
             try
             {
                 Convert.ToDecimal(txtMinAmount.Text);
@@ -482,7 +454,6 @@ namespace SLS.Loan.Application
             catch
             {
                 isValid = 1;
-                er2.Visible = true;
             }
             try
             {
@@ -491,7 +462,6 @@ namespace SLS.Loan.Application
             catch
             {
                 isValid = 1;
-                er3.Visible = true;
             }
             try
             {
@@ -500,7 +470,6 @@ namespace SLS.Loan.Application
             catch
             {
                 isValid = 1;
-                er4.Visible = true;
             }
             try
             {
@@ -509,16 +478,13 @@ namespace SLS.Loan.Application
             catch
             {
                 isValid = 1;
-                er5.Visible = true;
-            }
-            try
+            } try
             {
                 Convert.ToDecimal(txtEligibility.Text);
             }
             catch
             {
                 isValid = 1;
-                er6.Visible = true;
             }
             try
             {
@@ -529,6 +495,7 @@ namespace SLS.Loan.Application
                         try
                         {
                             Convert.ToDecimal(dataGridView1.Rows[j].Cells[k].Value.ToString());
+                            //MessageBox.Show("" + dataGridView1.Rows[j].Cells[k].Value.ToString() + " " + j.ToString() + " " + k.ToString());
                         }
                         catch
                         {
@@ -541,51 +508,7 @@ namespace SLS.Loan.Application
             {
                 isValid = 1;
             }
-            try
-            {
-                Convert.ToDecimal(txtGrace.Text);
-            }
-            catch
-            {
-                isValid = 1;
-                er7.Visible = true;
-            }
-            try
-            {
-                Convert.ToInt32(cobGrace.SelectedIndex);
-            }
-            catch
-            {
-                isValid = 1;
-                er8.Visible = true;
-            }
-            try
-            {
-                Convert.ToDecimal(txtPenalty.Text);
-            }
-            catch
-            {
-                isValid = 1;
-                er9.Visible = true;
-            }
             return isValid;
-        }
-
-        private void ckbGrace_CheckedChanged(object sender, EventArgs e)
-        {
-            if(ckbGrace.Checked == true)
-            {
-                defaultGrace();
-                cobGrace.Enabled = true;
-                txtGrace.Enabled = true;
-            }
-            else
-            {
-                txtGrace.Clear();
-                txtGrace.Enabled = false;
-                cobGrace.Items.Clear();
-                cobGrace.Enabled = false;
-            }
         }
     }
 }

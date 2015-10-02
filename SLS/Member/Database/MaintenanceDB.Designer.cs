@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,20 +39,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.cobFilter = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.sLSDBDataSet2 = new SLS.SLSDBDataSet2();
-            this.mEMBERTYPEVIEWBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.mEMBERTYPEVIEWTableAdapter = new SLS.SLSDBDataSet2TableAdapters.MEMBERTYPEVIEWTableAdapter();
-            this.memberTypeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.memberTypeNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ageRequirementDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.savingsDepositDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.timeDepositDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.loanServicesDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.shareCapitalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.statusDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sLSDBDataSet2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mEMBERTYPEVIEWBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -163,23 +149,12 @@
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView1.ColumnHeadersHeight = 55;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.memberTypeIDDataGridViewTextBoxColumn,
-            this.memberTypeNameDataGridViewTextBoxColumn,
-            this.ageRequirementDataGridViewTextBoxColumn,
-            this.savingsDepositDataGridViewCheckBoxColumn,
-            this.timeDepositDataGridViewCheckBoxColumn,
-            this.loanServicesDataGridViewCheckBoxColumn,
-            this.shareCapitalDataGridViewTextBoxColumn,
-            this.statusDataGridViewCheckBoxColumn});
-            this.dataGridView1.DataSource = this.mEMBERTYPEVIEWBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(5, 42);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
@@ -204,84 +179,6 @@
             this.dataGridView1.TabIndex = 14;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
-            // sLSDBDataSet2
-            // 
-            this.sLSDBDataSet2.DataSetName = "SLSDBDataSet2";
-            this.sLSDBDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // mEMBERTYPEVIEWBindingSource
-            // 
-            this.mEMBERTYPEVIEWBindingSource.DataMember = "MEMBERTYPEVIEW";
-            this.mEMBERTYPEVIEWBindingSource.DataSource = this.sLSDBDataSet2;
-            // 
-            // mEMBERTYPEVIEWTableAdapter
-            // 
-            this.mEMBERTYPEVIEWTableAdapter.ClearBeforeFill = true;
-            // 
-            // memberTypeIDDataGridViewTextBoxColumn
-            // 
-            this.memberTypeIDDataGridViewTextBoxColumn.DataPropertyName = "Member Type ID";
-            this.memberTypeIDDataGridViewTextBoxColumn.HeaderText = "Member Type ID";
-            this.memberTypeIDDataGridViewTextBoxColumn.Name = "memberTypeIDDataGridViewTextBoxColumn";
-            this.memberTypeIDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.memberTypeIDDataGridViewTextBoxColumn.Width = 129;
-            // 
-            // memberTypeNameDataGridViewTextBoxColumn
-            // 
-            this.memberTypeNameDataGridViewTextBoxColumn.DataPropertyName = "Member Type Name";
-            this.memberTypeNameDataGridViewTextBoxColumn.HeaderText = "Member Type Name";
-            this.memberTypeNameDataGridViewTextBoxColumn.Name = "memberTypeNameDataGridViewTextBoxColumn";
-            this.memberTypeNameDataGridViewTextBoxColumn.ReadOnly = true;
-            this.memberTypeNameDataGridViewTextBoxColumn.Width = 129;
-            // 
-            // ageRequirementDataGridViewTextBoxColumn
-            // 
-            this.ageRequirementDataGridViewTextBoxColumn.DataPropertyName = "Age Requirement";
-            this.ageRequirementDataGridViewTextBoxColumn.HeaderText = "Age Requirement";
-            this.ageRequirementDataGridViewTextBoxColumn.Name = "ageRequirementDataGridViewTextBoxColumn";
-            this.ageRequirementDataGridViewTextBoxColumn.ReadOnly = true;
-            this.ageRequirementDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // savingsDepositDataGridViewCheckBoxColumn
-            // 
-            this.savingsDepositDataGridViewCheckBoxColumn.DataPropertyName = "Savings Deposit";
-            this.savingsDepositDataGridViewCheckBoxColumn.HeaderText = "Savings Deposit";
-            this.savingsDepositDataGridViewCheckBoxColumn.Name = "savingsDepositDataGridViewCheckBoxColumn";
-            this.savingsDepositDataGridViewCheckBoxColumn.ReadOnly = true;
-            this.savingsDepositDataGridViewCheckBoxColumn.Width = 119;
-            // 
-            // timeDepositDataGridViewCheckBoxColumn
-            // 
-            this.timeDepositDataGridViewCheckBoxColumn.DataPropertyName = "Time Deposit";
-            this.timeDepositDataGridViewCheckBoxColumn.HeaderText = "Time Deposit";
-            this.timeDepositDataGridViewCheckBoxColumn.Name = "timeDepositDataGridViewCheckBoxColumn";
-            this.timeDepositDataGridViewCheckBoxColumn.ReadOnly = true;
-            this.timeDepositDataGridViewCheckBoxColumn.Width = 102;
-            // 
-            // loanServicesDataGridViewCheckBoxColumn
-            // 
-            this.loanServicesDataGridViewCheckBoxColumn.DataPropertyName = "Loan Services";
-            this.loanServicesDataGridViewCheckBoxColumn.HeaderText = "Loan Services";
-            this.loanServicesDataGridViewCheckBoxColumn.Name = "loanServicesDataGridViewCheckBoxColumn";
-            this.loanServicesDataGridViewCheckBoxColumn.ReadOnly = true;
-            this.loanServicesDataGridViewCheckBoxColumn.Width = 104;
-            // 
-            // shareCapitalDataGridViewTextBoxColumn
-            // 
-            this.shareCapitalDataGridViewTextBoxColumn.DataPropertyName = "Share Capital";
-            this.shareCapitalDataGridViewTextBoxColumn.HeaderText = "Share Capital";
-            this.shareCapitalDataGridViewTextBoxColumn.Name = "shareCapitalDataGridViewTextBoxColumn";
-            this.shareCapitalDataGridViewTextBoxColumn.ReadOnly = true;
-            this.shareCapitalDataGridViewTextBoxColumn.Width = 119;
-            // 
-            // statusDataGridViewCheckBoxColumn
-            // 
-            this.statusDataGridViewCheckBoxColumn.DataPropertyName = "Status";
-            this.statusDataGridViewCheckBoxColumn.HeaderText = "Status";
-            this.statusDataGridViewCheckBoxColumn.Name = "statusDataGridViewCheckBoxColumn";
-            this.statusDataGridViewCheckBoxColumn.ReadOnly = true;
-            this.statusDataGridViewCheckBoxColumn.Width = 61;
-            // 
             // MaintenanceDB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -302,10 +199,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MaintenanceDB";
             this.Text = "MemberType";
-            this.Load += new System.EventHandler(this.MaintenanceDB_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sLSDBDataSet2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mEMBERTYPEVIEWBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -322,16 +216,5 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cobFilter;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private SLSDBDataSet2 sLSDBDataSet2;
-        private System.Windows.Forms.BindingSource mEMBERTYPEVIEWBindingSource;
-        private SLSDBDataSet2TableAdapters.MEMBERTYPEVIEWTableAdapter mEMBERTYPEVIEWTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn memberTypeIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn memberTypeNameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ageRequirementDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn savingsDepositDataGridViewCheckBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn timeDepositDataGridViewCheckBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn loanServicesDataGridViewCheckBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn shareCapitalDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn statusDataGridViewCheckBoxColumn;
     }
 }

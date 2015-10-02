@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,20 +39,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.sLSDBDataSet3 = new SLS.SLSDBDataSet3();
-            this.sAVINGSTYPEVIEWBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.sAVINGSTYPEVIEWTableAdapter = new SLS.SLSDBDataSet3TableAdapters.SAVINGSTYPEVIEWTableAdapter();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.savingsTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.interestRateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.initialDepositDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.maintainingBalanceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.balanceToEarnRateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.maximumWithdrawalDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.statusDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sLSDBDataSet3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sAVINGSTYPEVIEWBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -62,7 +48,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 32);
+            this.label1.Size = new System.Drawing.Size(182, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "SAVINGS TYPE";
             // 
@@ -163,23 +149,12 @@
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView1.ColumnHeadersHeight = 55;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.iDDataGridViewTextBoxColumn,
-            this.savingsTypeDataGridViewTextBoxColumn,
-            this.interestRateDataGridViewTextBoxColumn,
-            this.initialDepositDataGridViewTextBoxColumn,
-            this.maintainingBalanceDataGridViewTextBoxColumn,
-            this.balanceToEarnRateDataGridViewTextBoxColumn,
-            this.maximumWithdrawalDataGridViewTextBoxColumn,
-            this.statusDataGridViewCheckBoxColumn});
-            this.dataGridView1.DataSource = this.sAVINGSTYPEVIEWBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(5, 41);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
@@ -204,84 +179,6 @@
             this.dataGridView1.TabIndex = 15;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
-            // sLSDBDataSet3
-            // 
-            this.sLSDBDataSet3.DataSetName = "SLSDBDataSet3";
-            this.sLSDBDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // sAVINGSTYPEVIEWBindingSource
-            // 
-            this.sAVINGSTYPEVIEWBindingSource.DataMember = "SAVINGSTYPEVIEW";
-            this.sAVINGSTYPEVIEWBindingSource.DataSource = this.sLSDBDataSet3;
-            // 
-            // sAVINGSTYPEVIEWTableAdapter
-            // 
-            this.sAVINGSTYPEVIEWTableAdapter.ClearBeforeFill = true;
-            // 
-            // iDDataGridViewTextBoxColumn
-            // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.iDDataGridViewTextBoxColumn.Width = 51;
-            // 
-            // savingsTypeDataGridViewTextBoxColumn
-            // 
-            this.savingsTypeDataGridViewTextBoxColumn.DataPropertyName = "Savings Type";
-            this.savingsTypeDataGridViewTextBoxColumn.HeaderText = "Savings Type";
-            this.savingsTypeDataGridViewTextBoxColumn.Name = "savingsTypeDataGridViewTextBoxColumn";
-            this.savingsTypeDataGridViewTextBoxColumn.ReadOnly = true;
-            this.savingsTypeDataGridViewTextBoxColumn.Width = 118;
-            // 
-            // interestRateDataGridViewTextBoxColumn
-            // 
-            this.interestRateDataGridViewTextBoxColumn.DataPropertyName = "Interest Rate";
-            this.interestRateDataGridViewTextBoxColumn.HeaderText = "Interest Rate";
-            this.interestRateDataGridViewTextBoxColumn.Name = "interestRateDataGridViewTextBoxColumn";
-            this.interestRateDataGridViewTextBoxColumn.ReadOnly = true;
-            this.interestRateDataGridViewTextBoxColumn.Width = 118;
-            // 
-            // initialDepositDataGridViewTextBoxColumn
-            // 
-            this.initialDepositDataGridViewTextBoxColumn.DataPropertyName = "Initial Deposit";
-            this.initialDepositDataGridViewTextBoxColumn.HeaderText = "Initial Deposit";
-            this.initialDepositDataGridViewTextBoxColumn.Name = "initialDepositDataGridViewTextBoxColumn";
-            this.initialDepositDataGridViewTextBoxColumn.ReadOnly = true;
-            this.initialDepositDataGridViewTextBoxColumn.Width = 124;
-            // 
-            // maintainingBalanceDataGridViewTextBoxColumn
-            // 
-            this.maintainingBalanceDataGridViewTextBoxColumn.DataPropertyName = "Maintaining Balance";
-            this.maintainingBalanceDataGridViewTextBoxColumn.HeaderText = "Maintaining Balance";
-            this.maintainingBalanceDataGridViewTextBoxColumn.Name = "maintainingBalanceDataGridViewTextBoxColumn";
-            this.maintainingBalanceDataGridViewTextBoxColumn.ReadOnly = true;
-            this.maintainingBalanceDataGridViewTextBoxColumn.Width = 165;
-            // 
-            // balanceToEarnRateDataGridViewTextBoxColumn
-            // 
-            this.balanceToEarnRateDataGridViewTextBoxColumn.DataPropertyName = "Balance To Earn Rate";
-            this.balanceToEarnRateDataGridViewTextBoxColumn.HeaderText = "Balance To Earn Rate";
-            this.balanceToEarnRateDataGridViewTextBoxColumn.Name = "balanceToEarnRateDataGridViewTextBoxColumn";
-            this.balanceToEarnRateDataGridViewTextBoxColumn.ReadOnly = true;
-            this.balanceToEarnRateDataGridViewTextBoxColumn.Width = 138;
-            // 
-            // maximumWithdrawalDataGridViewTextBoxColumn
-            // 
-            this.maximumWithdrawalDataGridViewTextBoxColumn.DataPropertyName = "Maximum Withdrawal";
-            this.maximumWithdrawalDataGridViewTextBoxColumn.HeaderText = "Maximum Withdrawal";
-            this.maximumWithdrawalDataGridViewTextBoxColumn.Name = "maximumWithdrawalDataGridViewTextBoxColumn";
-            this.maximumWithdrawalDataGridViewTextBoxColumn.ReadOnly = true;
-            this.maximumWithdrawalDataGridViewTextBoxColumn.Width = 176;
-            // 
-            // statusDataGridViewCheckBoxColumn
-            // 
-            this.statusDataGridViewCheckBoxColumn.DataPropertyName = "Status";
-            this.statusDataGridViewCheckBoxColumn.HeaderText = "Status";
-            this.statusDataGridViewCheckBoxColumn.Name = "statusDataGridViewCheckBoxColumn";
-            this.statusDataGridViewCheckBoxColumn.ReadOnly = true;
-            this.statusDataGridViewCheckBoxColumn.Width = 61;
-            // 
             // SavingsTypeDB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -302,10 +199,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SavingsTypeDB";
             this.Text = "MemberType";
-            this.Load += new System.EventHandler(this.SavingsTypeDB_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sLSDBDataSet3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sAVINGSTYPEVIEWBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -322,16 +216,5 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private SLSDBDataSet3 sLSDBDataSet3;
-        private System.Windows.Forms.BindingSource sAVINGSTYPEVIEWBindingSource;
-        private SLSDBDataSet3TableAdapters.SAVINGSTYPEVIEWTableAdapter sAVINGSTYPEVIEWTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn savingsTypeDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn interestRateDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn initialDepositDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn maintainingBalanceDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn balanceToEarnRateDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn maximumWithdrawalDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn statusDataGridViewCheckBoxColumn;
     }
 }

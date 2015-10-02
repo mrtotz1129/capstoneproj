@@ -32,13 +32,21 @@ namespace SLS.Utilities.Database
         {
             if(SLS.Static.hasSearch == 0)
             {
-                this.cREDITINVESTIGATORVIEWTableAdapter.Fill(this.sLSDBDataSet9.CREDITINVESTIGATORVIEW);
+                SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
+                String sql = SLS.Static.sql;
+                DataSet ds = con.executeDataSet(sql, "Credit Investigator");
+                dataGridView1.DataSource = ds;
+                dataGridView1.DataMember = "Credit Investigator";
                 dataGridView1.Columns[0].Visible = false;
                 dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             }
             else
             {
-                this.cREDITINVESTIGATORVIEWTableAdapter.Fill(this.sLSDBDataSet9.CREDITINVESTIGATORVIEW);
+                SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
+                String sql = SLS.Static.sqlParams;
+                DataSet ds = con.executeDataSet(sql, SLS.Static.parameters,"Credit Investigator");
+                dataGridView1.DataSource = ds;
+                dataGridView1.DataMember = "Credit Investigator";
                 dataGridView1.Columns[0].Visible = false;
                 dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             
@@ -140,13 +148,6 @@ namespace SLS.Utilities.Database
                     btnStatus.Text = "ACTIVATE";
                 }
             }
-        }
-
-        private void CreditInvestigationDB_Load(object sender, EventArgs e)
-        {
-            // TODO: This line of code loads data into the 'sLSDBDataSet9.CREDITINVESTIGATORVIEW' table. You can move, or remove it, as needed.
-            
-
         }
     }
 }

@@ -60,11 +60,8 @@
     <Compile Include="Loan\Application\LoanApplicationView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Loan\Application\LoanReleaseReport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Loan\Application\LoanReleaseReport.Designer.cs">
-      <DependentUpon>LoanReleaseReport.cs</DependentUpon>
+    <Compile Include="Loan\Application\LoanApplicationView.Designer.cs">
+      <DependentUpon>LoanApplicationView.cs</DependentUpon>
     </Compile>
     <Compile Include="Loan\Database\ChargeModeTermDB.cs">
       <SubType>Form</SubType>
@@ -84,88 +81,15 @@
     <Compile Include="Loan\Database\LoanTypeDB.Designer.cs">
       <DependentUpon>LoanTypeDB.cs</DependentUpon>
     </Compile>
-    <Compile Include="Member\Application\MemberReport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Member\Application\MemberReport.Designer.cs">
-      <DependentUpon>MemberReport.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ReleasedLoans.cs">
-    </Compile>
-    <Compile Include="SavingsDeposit\Application\DepositReport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SavingsDeposit\Application\DepositReport.Designer.cs">
-      <DependentUpon>DepositReport.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SavingsDeposit\Application\WithdrawReport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SavingsDeposit\Application\WithdrawReport.Designer.cs">
-      <DependentUpon>WithdrawReport.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SummaryOfMember.cs">
+    <Compile Include="SLSDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SummaryOfMember.rpt</DependentUpon>
-    </Compile>
-    <Compile Include="SummaryOfReleasedLoans.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SummaryOfReleasedLoans.rpt</DependentUpon>
-    </Compile>
-    <Compile Include="SLSDBDataSet.cs">
       <DependentUpon>SLSDBDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="SLSDBDataSet2.Designer.cs">
-      <DependentUpon>SLSDBDataSet2.xsd</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-    </Compile>
-    <Compile Include="SLSDBDataSet3.Designer.cs">
-      <DependentUpon>SLSDBDataSet3.xsd</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-    </Compile>
-    <Compile Include="SLSDBDataSet4.Designer.cs">
-      <DependentUpon>SLSDBDataSet4.xsd</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-    </Compile>
-    <Compile Include="SLSDBDataSet5.Designer.cs">
-      <DependentUpon>SLSDBDataSet5.xsd</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-    </Compile>
-    <Compile Include="SLSDBDataSet6.Designer.cs">
-      <DependentUpon>SLSDBDataSet6.xsd</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-    </Compile>
-    <Compile Include="SLSDBDataSet7.Designer.cs">
-      <DependentUpon>SLSDBDataSet7.xsd</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-    </Compile>
-    <Compile Include="SLSDBDataSet8.Designer.cs">
-      <DependentUpon>SLSDBDataSet8.xsd</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-    </Compile>
-    <Compile Include="SLSDBDataSet9.Designer.cs">
-      <DependentUpon>SLSDBDataSet9.xsd</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-    </Compile>
-    <Compile Include="SummaryOfSavingsDeposit.cs">
+    <Compile Include="SLSDBDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SummaryOfSavingsDeposit.rpt</DependentUpon>
-    </Compile>
-    <Compile Include="SummaryOfSavingsWithdrawal.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SummaryOfSavingsWithdrawal.rpt</DependentUpon>
+      <DependentUpon>SLSDBDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="TimeDeposit\Application\ClosureRenewal.cs">
       <SubType>Form</SubType>
@@ -518,8 +442,8 @@
     <EmbeddedResource Include="Connection.resx">
       <DependentUpon>Connection.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Loan\Application\LoanReleaseReport.resx">
-      <DependentUpon>LoanReleaseReport.cs</DependentUpon>
+    <EmbeddedResource Include="Loan\Application\LoanApplicationView.resx">
+      <DependentUpon>LoanApplicationView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loan\Database\ChargeModeTermDB.resx">
       <DependentUpon>ChargeModeTermDB.cs</DependentUpon>
@@ -529,33 +453,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Loan\Database\LoanTypeDB.resx">
       <DependentUpon>LoanTypeDB.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Member\Application\MemberReport.resx">
-      <DependentUpon>MemberReport.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ReleasedLoans.rpt">
-    </EmbeddedResource>
-    <EmbeddedResource Include="SavingsDeposit\Application\DepositReport.resx">
-      <DependentUpon>DepositReport.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SavingsDeposit\Application\WithdrawReport.resx">
-      <DependentUpon>WithdrawReport.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SummaryOfMember.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>SummaryOfMember.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SummaryOfReleasedLoans.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>SummaryOfReleasedLoans.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SummaryOfSavingsDeposit.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>SummaryOfSavingsDeposit.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SummaryOfSavingsWithdrawal.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>SummaryOfSavingsWithdrawal.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="TimeDeposit\Application\ClosureRenewal.resx">
       <DependentUpon>ClosureRenewal.cs</DependentUpon>
@@ -643,7 +540,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Member\Application\MembershipApplication.resx">
       <DependentUpon>MembershipApplication.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Member\Database\MaintenanceDB.resx">
       <DependentUpon>MaintenanceDB.cs</DependentUpon>
@@ -739,8 +635,6 @@
       <DependentUpon>UserAccountDB.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="bin\Debug\SLS.exe.config" />
-    <None Include="bin\Debug\SLS.vshost.exe.config" />
-    <None Include="bin\Debug\SLS.vshost.exe.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -772,94 +666,6 @@
     <None Include="SLSDBDataSet1.xss">
       <DependentUpon>SLSDBDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="SLSDBDataSet2.xsc">
-      <DependentUpon>SLSDBDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet2.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SLSDBDataSet2.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="SLSDBDataSet2.xss">
-      <DependentUpon>SLSDBDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet3.xsc">
-      <DependentUpon>SLSDBDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet3.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SLSDBDataSet3.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="SLSDBDataSet3.xss">
-      <DependentUpon>SLSDBDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet4.xsc">
-      <DependentUpon>SLSDBDataSet4.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet4.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SLSDBDataSet4.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="SLSDBDataSet4.xss">
-      <DependentUpon>SLSDBDataSet4.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet5.xsc">
-      <DependentUpon>SLSDBDataSet5.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet5.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SLSDBDataSet5.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="SLSDBDataSet5.xss">
-      <DependentUpon>SLSDBDataSet5.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet6.xsc">
-      <DependentUpon>SLSDBDataSet6.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet6.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SLSDBDataSet6.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="SLSDBDataSet6.xss">
-      <DependentUpon>SLSDBDataSet6.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet7.xsc">
-      <DependentUpon>SLSDBDataSet7.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet7.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SLSDBDataSet7.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="SLSDBDataSet7.xss">
-      <DependentUpon>SLSDBDataSet7.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet8.xsc">
-      <DependentUpon>SLSDBDataSet8.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet8.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SLSDBDataSet8.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="SLSDBDataSet8.xss">
-      <DependentUpon>SLSDBDataSet8.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet9.xsc">
-      <DependentUpon>SLSDBDataSet9.xsd</DependentUpon>
-    </None>
-    <None Include="SLSDBDataSet9.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SLSDBDataSet9.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="SLSDBDataSet9.xss">
-      <DependentUpon>SLSDBDataSet9.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -871,7 +677,6 @@
   <ItemGroup>
     <Content Include="bin\Debug\SLS.exe" />
     <Content Include="bin\Debug\SLS.pdb" />
-    <Content Include="bin\Debug\SLS.vshost.exe" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />

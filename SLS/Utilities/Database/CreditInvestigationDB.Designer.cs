@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,17 +39,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.cobFilter = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.sLSDBDataSet9 = new SLS.SLSDBDataSet9();
-            this.cREDITINVESTIGATORVIEWBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.cREDITINVESTIGATORVIEWTableAdapter = new SLS.SLSDBDataSet9TableAdapters.CREDITINVESTIGATORVIEWTableAdapter();
-            this.creditInvestigatorIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.firstNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.middleNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lastNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.statusDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sLSDBDataSet9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cREDITINVESTIGATORVIEWBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -59,7 +48,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(292, 32);
+            this.label1.Size = new System.Drawing.Size(289, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "CREDIT INVESTIGATORS";
             // 
@@ -160,20 +149,12 @@
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView1.ColumnHeadersHeight = 55;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.creditInvestigatorIDDataGridViewTextBoxColumn,
-            this.firstNameDataGridViewTextBoxColumn,
-            this.middleNameDataGridViewTextBoxColumn,
-            this.lastNameDataGridViewTextBoxColumn,
-            this.statusDataGridViewCheckBoxColumn});
-            this.dataGridView1.DataSource = this.cREDITINVESTIGATORVIEWBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(5, 42);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
@@ -198,66 +179,12 @@
             this.dataGridView1.TabIndex = 14;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
-            // sLSDBDataSet9
-            // 
-            this.sLSDBDataSet9.DataSetName = "SLSDBDataSet9";
-            this.sLSDBDataSet9.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // cREDITINVESTIGATORVIEWBindingSource
-            // 
-            this.cREDITINVESTIGATORVIEWBindingSource.DataMember = "CREDITINVESTIGATORVIEW";
-            this.cREDITINVESTIGATORVIEWBindingSource.DataSource = this.sLSDBDataSet9;
-            // 
-            // cREDITINVESTIGATORVIEWTableAdapter
-            // 
-            this.cREDITINVESTIGATORVIEWTableAdapter.ClearBeforeFill = true;
-            // 
-            // creditInvestigatorIDDataGridViewTextBoxColumn
-            // 
-            this.creditInvestigatorIDDataGridViewTextBoxColumn.DataPropertyName = "Credit Investigator ID";
-            this.creditInvestigatorIDDataGridViewTextBoxColumn.HeaderText = "Credit Investigator ID";
-            this.creditInvestigatorIDDataGridViewTextBoxColumn.Name = "creditInvestigatorIDDataGridViewTextBoxColumn";
-            this.creditInvestigatorIDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.creditInvestigatorIDDataGridViewTextBoxColumn.Width = 157;
-            // 
-            // firstNameDataGridViewTextBoxColumn
-            // 
-            this.firstNameDataGridViewTextBoxColumn.DataPropertyName = "First Name";
-            this.firstNameDataGridViewTextBoxColumn.HeaderText = "First Name";
-            this.firstNameDataGridViewTextBoxColumn.Name = "firstNameDataGridViewTextBoxColumn";
-            this.firstNameDataGridViewTextBoxColumn.ReadOnly = true;
-            this.firstNameDataGridViewTextBoxColumn.Width = 104;
-            // 
-            // middleNameDataGridViewTextBoxColumn
-            // 
-            this.middleNameDataGridViewTextBoxColumn.DataPropertyName = "Middle Name";
-            this.middleNameDataGridViewTextBoxColumn.HeaderText = "Middle Name";
-            this.middleNameDataGridViewTextBoxColumn.Name = "middleNameDataGridViewTextBoxColumn";
-            this.middleNameDataGridViewTextBoxColumn.ReadOnly = true;
-            this.middleNameDataGridViewTextBoxColumn.Width = 123;
-            // 
-            // lastNameDataGridViewTextBoxColumn
-            // 
-            this.lastNameDataGridViewTextBoxColumn.DataPropertyName = "Last Name";
-            this.lastNameDataGridViewTextBoxColumn.HeaderText = "Last Name";
-            this.lastNameDataGridViewTextBoxColumn.Name = "lastNameDataGridViewTextBoxColumn";
-            this.lastNameDataGridViewTextBoxColumn.ReadOnly = true;
-            this.lastNameDataGridViewTextBoxColumn.Width = 102;
-            // 
-            // statusDataGridViewCheckBoxColumn
-            // 
-            this.statusDataGridViewCheckBoxColumn.DataPropertyName = "status";
-            this.statusDataGridViewCheckBoxColumn.HeaderText = "status";
-            this.statusDataGridViewCheckBoxColumn.Name = "statusDataGridViewCheckBoxColumn";
-            this.statusDataGridViewCheckBoxColumn.ReadOnly = true;
-            this.statusDataGridViewCheckBoxColumn.Width = 59;
-            // 
             // CreditInvestigationDB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1276, 551);
+            this.ClientSize = new System.Drawing.Size(1360, 551);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.cobFilter);
             this.Controls.Add(this.label2);
@@ -272,10 +199,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CreditInvestigationDB";
             this.Text = "MemberType";
-            this.Load += new System.EventHandler(this.CreditInvestigationDB_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sLSDBDataSet9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cREDITINVESTIGATORVIEWBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -292,13 +216,5 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cobFilter;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private SLSDBDataSet9 sLSDBDataSet9;
-        private System.Windows.Forms.BindingSource cREDITINVESTIGATORVIEWBindingSource;
-        private SLSDBDataSet9TableAdapters.CREDITINVESTIGATORVIEWTableAdapter cREDITINVESTIGATORVIEWTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn creditInvestigatorIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn firstNameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn middleNameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn lastNameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn statusDataGridViewCheckBoxColumn;
     }
 }

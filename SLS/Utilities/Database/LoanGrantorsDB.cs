@@ -32,13 +32,21 @@ namespace SLS.Utilities.Database
         {
             if(SLS.Static.hasSearch == 0)
             {
-                this.gRANTORVIEWTableAdapter.Fill(this.sLSDBDataSet8.GRANTORVIEW);
+                SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
+                String sql = SLS.Static.sql;
+                DataSet ds = con.executeDataSet(sql, "Loan Grantor");
+                dataGridView1.DataSource = ds;
+                dataGridView1.DataMember = "Loan Grantor";
                 dataGridView1.Columns[0].Visible = false;
                 dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             }
             else
             {
-                this.gRANTORVIEWTableAdapter.Fill(this.sLSDBDataSet8.GRANTORVIEW);
+                SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
+                String sql = SLS.Static.sqlParams;
+                DataSet ds = con.executeDataSet(sql, SLS.Static.parameters, "Loan Grantor");
+                dataGridView1.DataSource = ds;
+                dataGridView1.DataMember = "Loan Grantor";
                 dataGridView1.Columns[0].Visible = false;
                 dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             
@@ -140,13 +148,6 @@ namespace SLS.Utilities.Database
                     btnDelete.Text = "ACTIVATE";
                 }
             }
-        }
-
-        private void LoanGrantorsDB_Load(object sender, EventArgs e)
-        {
-            // TODO: This line of code loads data into the 'sLSDBDataSet8.GRANTORVIEW' table. You can move, or remove it, as needed.
-            
-
         }
     }
 }

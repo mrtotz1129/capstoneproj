@@ -36,8 +36,6 @@
             this.transaction = new System.Windows.Forms.ToolStripMenuItem();
             this.reports = new System.Windows.Forms.ToolStripMenuItem();
             this.pnlMain = new System.Windows.Forms.Panel();
-            this.depositToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.withdrawToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.savingsMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +50,7 @@
             this.reports});
             this.savingsMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.savingsMenuStrip.Name = "savingsMenuStrip";
-            this.savingsMenuStrip.Size = new System.Drawing.Size(1276, 28);
+            this.savingsMenuStrip.Size = new System.Drawing.Size(1360, 28);
             this.savingsMenuStrip.TabIndex = 0;
             this.savingsMenuStrip.Text = "savingsMenuStrip";
             // 
@@ -104,9 +102,6 @@
             // 
             this.reports.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("reports.BackgroundImage")));
             this.reports.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.reports.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.depositToolStripMenuItem,
-            this.withdrawToolStripMenuItem});
             this.reports.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reports.ForeColor = System.Drawing.Color.MidnightBlue;
             this.reports.Name = "reports";
@@ -120,26 +115,12 @@
             this.pnlMain.Size = new System.Drawing.Size(1360, 551);
             this.pnlMain.TabIndex = 1;
             // 
-            // depositToolStripMenuItem
-            // 
-            this.depositToolStripMenuItem.Name = "depositToolStripMenuItem";
-            this.depositToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
-            this.depositToolStripMenuItem.Text = "Deposit";
-            this.depositToolStripMenuItem.Click += new System.EventHandler(this.depositToolStripMenuItem_Click);
-            // 
-            // withdrawToolStripMenuItem
-            // 
-            this.withdrawToolStripMenuItem.Name = "withdrawToolStripMenuItem";
-            this.withdrawToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
-            this.withdrawToolStripMenuItem.Text = "Withdraw";
-            this.withdrawToolStripMenuItem.Click += new System.EventHandler(this.withdrawToolStripMenuItem_Click);
-            // 
             // Savings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(1276, 581);
+            this.ClientSize = new System.Drawing.Size(1360, 581);
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.savingsMenuStrip);
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -164,7 +145,5 @@
         private System.Windows.Forms.Panel pnlMain;
         private System.Windows.Forms.ToolStripMenuItem savingsType;
         private System.Windows.Forms.ToolStripMenuItem dormancy;
-        private System.Windows.Forms.ToolStripMenuItem depositToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem withdrawToolStripMenuItem;
     }
 }

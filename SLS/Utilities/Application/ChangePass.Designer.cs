@@ -65,7 +65,7 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(1, -4);
+            this.panel1.Location = new System.Drawing.Point(2, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(583, 442);
             this.panel1.TabIndex = 0;
@@ -90,7 +90,7 @@
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(32, 29);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(169, 21);
+            this.label8.Size = new System.Drawing.Size(168, 21);
             this.label8.TabIndex = 27;
             this.label8.Text = "CHANGE PASSWORD";
             // 
@@ -233,10 +233,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(582, 437);
+            this.ClientSize = new System.Drawing.Size(589, 448);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ChangePass";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UtilitiesChangePass";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

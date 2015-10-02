@@ -29,12 +29,26 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -53,43 +67,29 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.label19 = new System.Windows.Forms.Label();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -108,6 +108,48 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1078, 516);
             this.panel1.TabIndex = 0;
+            // 
+            // button7
+            // 
+            this.button7.AutoSize = true;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(272, 458);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(91, 33);
+            this.button7.TabIndex = 48;
+            this.button7.Tag = "";
+            this.button7.Text = "Cancel";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.AutoSize = true;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(146, 458);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(91, 33);
+            this.button6.TabIndex = 47;
+            this.button6.Tag = "";
+            this.button6.Text = "Delete";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.AutoSize = true;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(13, 458);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(91, 33);
+            this.button5.TabIndex = 46;
+            this.button5.Tag = "";
+            this.button5.Text = "Save";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // comboBox1
             // 
@@ -182,6 +224,125 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Payment";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.AutoSize = true;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.button4.Location = new System.Drawing.Point(543, 386);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(91, 33);
+            this.button4.TabIndex = 46;
+            this.button4.Tag = "";
+            this.button4.Text = "Next";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.AutoSize = true;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.button3.Location = new System.Drawing.Point(412, 386);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(91, 33);
+            this.button3.TabIndex = 45;
+            this.button3.Tag = "";
+            this.button3.Text = "Clear";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.textBox11);
+            this.groupBox3.Controls.Add(this.checkBox1);
+            this.groupBox3.Controls.Add(this.textBox10);
+            this.groupBox3.Controls.Add(this.label12);
+            this.groupBox3.Controls.Add(this.label10);
+            this.groupBox3.Controls.Add(this.label9);
+            this.groupBox3.Controls.Add(this.textBox8);
+            this.groupBox3.Controls.Add(this.button2);
+            this.groupBox3.Location = new System.Drawing.Point(380, 7);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(292, 316);
+            this.groupBox3.TabIndex = 44;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Payment Information";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(77, 242);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(127, 29);
+            this.textBox11.TabIndex = 43;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(6, 122);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(284, 25);
+            this.checkBox1.TabIndex = 42;
+            this.checkBox1.Text = "Include Change to Next Amortization";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(143, 72);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(127, 29);
+            this.textBox10.TabIndex = 41;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label12.Location = new System.Drawing.Point(5, 245);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(66, 21);
+            this.label12.TabIndex = 40;
+            this.label12.Text = "Change:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label10.Location = new System.Drawing.Point(5, 80);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(138, 21);
+            this.label10.TabIndex = 39;
+            this.label10.Text = "Amount Tendered:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label9.Location = new System.Drawing.Point(5, 40);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(138, 21);
+            this.label9.TabIndex = 38;
+            this.label9.Text = "Number of Period:";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(143, 32);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(127, 29);
+            this.textBox8.TabIndex = 38;
+            // 
+            // button2
+            // 
+            this.button2.AutoSize = true;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.button2.Location = new System.Drawing.Point(73, 175);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(120, 33);
+            this.button2.TabIndex = 28;
+            this.button2.Text = "Save Payment";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -353,19 +514,6 @@
             this.label11.TabIndex = 20;
             this.label11.Text = "Loan Number:";
             // 
-            // button2
-            // 
-            this.button2.AutoSize = true;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.button2.Location = new System.Drawing.Point(73, 175);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(120, 33);
-            this.button2.TabIndex = 28;
-            this.button2.Text = "Save Payment";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.label19);
@@ -390,203 +538,66 @@
             this.tabPage2.Text = "View Amortization";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // textBox8
+            // label19
             // 
-            this.textBox8.Location = new System.Drawing.Point(143, 32);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(127, 29);
-            this.textBox8.TabIndex = 38;
+            this.label19.AutoSize = true;
+            this.label19.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label19.Location = new System.Drawing.Point(410, 43);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(167, 21);
+            this.label19.TabIndex = 54;
+            this.label19.Text = "Amortization Schedule";
             // 
-            // label9
+            // dataGridView2
             // 
-            this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label9.Location = new System.Drawing.Point(5, 40);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(138, 21);
-            this.label9.TabIndex = 38;
-            this.label9.Text = "Number of Period:";
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(408, 77);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(252, 264);
+            this.dataGridView2.TabIndex = 53;
             // 
-            // label10
+            // textBox17
             // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label10.Location = new System.Drawing.Point(5, 80);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(138, 21);
-            this.label10.TabIndex = 39;
-            this.label10.Text = "Amount Tendered:";
+            this.textBox17.Location = new System.Drawing.Point(249, 302);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(127, 29);
+            this.textBox17.TabIndex = 52;
             // 
-            // label12
+            // textBox16
             // 
-            this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label12.Location = new System.Drawing.Point(5, 245);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(66, 21);
-            this.label12.TabIndex = 40;
-            this.label12.Text = "Change:";
+            this.textBox16.Location = new System.Drawing.Point(249, 264);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(127, 29);
+            this.textBox16.TabIndex = 51;
             // 
-            // textBox10
+            // textBox15
             // 
-            this.textBox10.Location = new System.Drawing.Point(143, 72);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(127, 29);
-            this.textBox10.TabIndex = 41;
+            this.textBox15.Location = new System.Drawing.Point(249, 226);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(127, 29);
+            this.textBox15.TabIndex = 50;
             // 
-            // checkBox1
+            // textBox14
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(6, 122);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(284, 25);
-            this.checkBox1.TabIndex = 42;
-            this.checkBox1.Text = "Include Change to Next Amortization";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.textBox14.Location = new System.Drawing.Point(249, 153);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(127, 29);
+            this.textBox14.TabIndex = 49;
             // 
-            // textBox11
+            // textBox13
             // 
-            this.textBox11.Location = new System.Drawing.Point(77, 242);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(127, 29);
-            this.textBox11.TabIndex = 43;
+            this.textBox13.Location = new System.Drawing.Point(249, 113);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(127, 29);
+            this.textBox13.TabIndex = 48;
             // 
-            // groupBox3
+            // textBox12
             // 
-            this.groupBox3.Controls.Add(this.textBox11);
-            this.groupBox3.Controls.Add(this.checkBox1);
-            this.groupBox3.Controls.Add(this.textBox10);
-            this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Controls.Add(this.label10);
-            this.groupBox3.Controls.Add(this.label9);
-            this.groupBox3.Controls.Add(this.textBox8);
-            this.groupBox3.Controls.Add(this.button2);
-            this.groupBox3.Location = new System.Drawing.Point(380, 7);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(292, 316);
-            this.groupBox3.TabIndex = 44;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Payment Information";
-            // 
-            // button3
-            // 
-            this.button3.AutoSize = true;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.button3.Location = new System.Drawing.Point(412, 386);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(91, 33);
-            this.button3.TabIndex = 45;
-            this.button3.Tag = "";
-            this.button3.Text = "Clear";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.AutoSize = true;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.button4.Location = new System.Drawing.Point(543, 386);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(91, 33);
-            this.button4.TabIndex = 46;
-            this.button4.Tag = "";
-            this.button4.Text = "Next";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.AutoSize = true;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(13, 458);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(91, 33);
-            this.button5.TabIndex = 46;
-            this.button5.Tag = "";
-            this.button5.Text = "Save";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.AutoSize = true;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(146, 458);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(91, 33);
-            this.button6.TabIndex = 47;
-            this.button6.Tag = "";
-            this.button6.Text = "Delete";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.AutoSize = true;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(272, 458);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(91, 33);
-            this.button7.TabIndex = 48;
-            this.button7.Tag = "";
-            this.button7.Text = "Cancel";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label13.Location = new System.Drawing.Point(11, 77);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(142, 21);
-            this.label13.TabIndex = 41;
-            this.label13.Text = "Last Payment Date:";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label14.Location = new System.Drawing.Point(11, 116);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(204, 21);
-            this.label14.TabIndex = 42;
-            this.label14.Text = "Number of Installment paid:";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label15.Location = new System.Drawing.Point(12, 156);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(141, 21);
-            this.label15.TabIndex = 43;
-            this.label15.Text = "Total Amount Paid:";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label16.Location = new System.Drawing.Point(12, 229);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(186, 21);
-            this.label16.TabIndex = 44;
-            this.label16.Text = "Total Remaining Amount:";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label17.Location = new System.Drawing.Point(12, 267);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(162, 21);
-            this.label17.TabIndex = 45;
-            this.label17.Text = "Total Penalty Amount:";
+            this.textBox12.Location = new System.Drawing.Point(249, 74);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(127, 29);
+            this.textBox12.TabIndex = 47;
             // 
             // label18
             // 
@@ -598,66 +609,55 @@
             this.label18.TabIndex = 46;
             this.label18.Text = "Total Amount Unpaid:";
             // 
-            // textBox12
+            // label17
             // 
-            this.textBox12.Location = new System.Drawing.Point(249, 74);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(127, 29);
-            this.textBox12.TabIndex = 47;
+            this.label17.AutoSize = true;
+            this.label17.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label17.Location = new System.Drawing.Point(12, 267);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(162, 21);
+            this.label17.TabIndex = 45;
+            this.label17.Text = "Total Penalty Amount:";
             // 
-            // textBox13
+            // label16
             // 
-            this.textBox13.Location = new System.Drawing.Point(249, 113);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(127, 29);
-            this.textBox13.TabIndex = 48;
+            this.label16.AutoSize = true;
+            this.label16.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label16.Location = new System.Drawing.Point(12, 229);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(186, 21);
+            this.label16.TabIndex = 44;
+            this.label16.Text = "Total Remaining Amount:";
             // 
-            // textBox14
+            // label15
             // 
-            this.textBox14.Location = new System.Drawing.Point(249, 153);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(127, 29);
-            this.textBox14.TabIndex = 49;
+            this.label15.AutoSize = true;
+            this.label15.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label15.Location = new System.Drawing.Point(12, 156);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(141, 21);
+            this.label15.TabIndex = 43;
+            this.label15.Text = "Total Amount Paid:";
             // 
-            // textBox15
+            // label14
             // 
-            this.textBox15.Location = new System.Drawing.Point(249, 226);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(127, 29);
-            this.textBox15.TabIndex = 50;
+            this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label14.Location = new System.Drawing.Point(11, 116);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(204, 21);
+            this.label14.TabIndex = 42;
+            this.label14.Text = "Number of Installment paid:";
             // 
-            // textBox16
+            // label13
             // 
-            this.textBox16.Location = new System.Drawing.Point(249, 264);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(127, 29);
-            this.textBox16.TabIndex = 51;
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(249, 302);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(127, 29);
-            this.textBox17.TabIndex = 52;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(408, 77);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(252, 264);
-            this.dataGridView2.TabIndex = 53;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label19.Location = new System.Drawing.Point(410, 43);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(167, 21);
-            this.label19.TabIndex = 54;
-            this.label19.Text = "Amortization Schedule";
+            this.label13.AutoSize = true;
+            this.label13.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label13.Location = new System.Drawing.Point(11, 77);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(142, 21);
+            this.label13.TabIndex = 41;
+            this.label13.Text = "Last Payment Date:";
             // 
             // LoanPayment
             // 
@@ -670,6 +670,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "LoanPayment";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoanRelease";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -677,14 +678,14 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 

@@ -99,7 +99,7 @@
             this.lblCompName.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCompName.Location = new System.Drawing.Point(121, 5);
             this.lblCompName.Name = "lblCompName";
-            this.lblCompName.Size = new System.Drawing.Size(193, 37);
+            this.lblCompName.Size = new System.Drawing.Size(192, 37);
             this.lblCompName.TabIndex = 1;
             this.lblCompName.Text = "Not Available";
             // 
@@ -285,7 +285,7 @@
             this.btnTime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTime.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTime.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnTime.Location = new System.Drawing.Point(362, 119);
+            this.btnTime.Location = new System.Drawing.Point(360, 119);
             this.btnTime.Name = "btnTime";
             this.btnTime.Size = new System.Drawing.Size(123, 33);
             this.btnTime.TabIndex = 4;
@@ -365,7 +365,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.ClientSize = new System.Drawing.Size(1362, 741);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lblUser);

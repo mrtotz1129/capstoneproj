@@ -18,24 +18,12 @@ namespace SLS.Loan.Application
             InitializeComponent();
         }
 
-
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             var date = DateTime.Now;
             SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
             String sql = "INSERT INTO LOAN (MemberID, LoanTypeID, applyAmount, TermID, ModeID, dateApplied) VALUES (@MemID, @LTypeID, @ApplyAmt, @TermID, @ModeID, @dateApplied)";
-            Dictionary<String, Object> parameters = new Dictionary<string, object>();
+            Dictionary < String, Object > parameters = new Dictionary<string, object>();
             parameters.Add("@MemId", Convert.ToInt32(textBox1.Text));
             parameters.Add("@LTypeID", Convert.ToInt32(textBox6.Text));
             parameters.Add("@ApplyAmt", textBox4.Text);
@@ -44,7 +32,6 @@ namespace SLS.Loan.Application
             parameters.Add("@dateApplied", date);
             SqlDataReader reader = con.executeReader(sql, parameters);
             MessageBox.Show("Loan Application Saved", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
         }
     }
 }
