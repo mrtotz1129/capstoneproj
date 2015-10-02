@@ -118,8 +118,7 @@ namespace SLS.Utilities.Application
                     txtUser.Text = Convert.ToString(reader[3]);
                     txtPass.Text = Convert.ToString(reader[4]);
                     cmbAccount.SelectedIndex = Convert.ToInt32(reader[5]);
-                    cmbQuestion.SelectedIndex = Convert.ToInt32(cmbQuestion.Items.IndexOf(reader[6].ToString()));
-                    //cmbQuestion.SelectedIndex = Convert.ToInt32(reader[6]);
+                    cmbQuestion.SelectedIndex = Convert.ToInt32(reader[6]);
                     txtAnswer.Text = Convert.ToString(reader[7]);
                 }
             }
@@ -132,7 +131,7 @@ namespace SLS.Utilities.Application
                 if (checkValues() == 0)
                 {
                     SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
-                    String sql = "INSERT INTO [USER] (fName, mName, lName, username, [password], accountID, securityQuestion, securityAnswer, [status]) VALUES (@fName, @mName, @lName, @username, @password, @accountID, @securityQuestion, @securityAnswer, @status)";
+                    String sql = "INSERT INTO [USER] (fName, mName, lName, username, [password], accountID, securityQuestion, securityAnswer, status) VALUES (@fName, @mName, @lName, @username, @password, @accountID, @securityQuestion, @securityAnswer, @status)";
                     Dictionary<String, Object> parameters = new Dictionary<string, object>();
                     parameters.Add("@fName", txtFN.Text);
                     parameters.Add("@mName", txtMN.Text);
@@ -140,7 +139,7 @@ namespace SLS.Utilities.Application
                     parameters.Add("@username", txtUser.Text);
                     parameters.Add("@password", txtPass.Text);
                     parameters.Add("@accountID", Convert.ToInt32(cmbAccount.SelectedIndex));
-                    parameters.Add("@securityQuestion", Convert.ToString(cmbQuestion.SelectedItem));
+                    parameters.Add("@securityQuestion", Convert.ToInt32(cmbQuestion.SelectedIndex));
                     parameters.Add("@securityAnswer", txtAnswer.Text);
                     parameters.Add("@status", true);
                     int result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
@@ -172,7 +171,7 @@ namespace SLS.Utilities.Application
                     parameters.Add("@username", txtUser.Text);
                     parameters.Add("@password", txtPass.Text);
                     parameters.Add("@accountID", Convert.ToInt32(cmbAccount.SelectedIndex));
-                    parameters.Add("@securityQuestion", Convert.ToString(cmbQuestion.SelectedItem));
+                    parameters.Add("@securityQuestion", Convert.ToInt32(cmbQuestion.SelectedIndex));
                     parameters.Add("@securityAnswer", txtAnswer.Text);
                     int result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
                     if (result == 1)

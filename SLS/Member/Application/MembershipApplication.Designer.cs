@@ -51,6 +51,7 @@
             this.label74 = new System.Windows.Forms.Label();
             this.txtMultiplier = new System.Windows.Forms.TextBox();
             this.label73 = new System.Windows.Forms.Label();
+            this.txtCI = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.txtInitialCapital = new System.Windows.Forms.TextBox();
             this.cmbCivil = new System.Windows.Forms.ComboBox();
@@ -324,6 +325,7 @@
             this.tabPage1.Controls.Add(this.label74);
             this.tabPage1.Controls.Add(this.txtMultiplier);
             this.tabPage1.Controls.Add(this.label73);
+            this.tabPage1.Controls.Add(this.txtCI);
             this.tabPage1.Controls.Add(this.label17);
             this.tabPage1.Controls.Add(this.txtInitialCapital);
             this.tabPage1.Controls.Add(this.cmbCivil);
@@ -430,9 +432,10 @@
             this.label16.Text = "Membership Fee:";
             // 
             // txtFee
-            // 
+            //
             this.txtFee.Enabled = false;
             this.txtFee.Location = new System.Drawing.Point(545, 277);
+            this.txtFee.Location = new System.Drawing.Point(545, 281);
             this.txtFee.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtFee.Name = "txtFee";
             this.txtFee.Size = new System.Drawing.Size(168, 25);
@@ -534,6 +537,15 @@
             this.label73.Size = new System.Drawing.Size(118, 17);
             this.label73.TabIndex = 39;
             this.label73.Text = "Credit Investigator:";
+            // 
+            // txtCI
+            // 
+            this.txtCI.Location = new System.Drawing.Point(545, 397);
+            this.txtCI.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtCI.Name = "txtCI";
+            this.txtCI.Size = new System.Drawing.Size(168, 25);
+            this.txtCI.TabIndex = 38;
+            this.txtCI.Enter += new System.EventHandler(this.txtCI_Enter);
             // 
             // label17
             // 
@@ -649,7 +661,6 @@
             this.cmbMemberType.Name = "cmbMemberType";
             this.cmbMemberType.Size = new System.Drawing.Size(168, 25);
             this.cmbMemberType.TabIndex = 25;
-            this.cmbMemberType.SelectedIndexChanged += new System.EventHandler(this.cmbMemberType_SelectedIndexChanged);
             this.cmbMemberType.Enter += new System.EventHandler(this.cmbMemberType_Enter);
             // 
             // txtGSISSSS
@@ -2705,6 +2716,7 @@
         private System.Windows.Forms.Label label74;
         private System.Windows.Forms.TextBox txtMultiplier;
         private System.Windows.Forms.Label label73;
+        private System.Windows.Forms.TextBox txtCI;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox txtInitialCapital;
         private System.Windows.Forms.TextBox txtAge;

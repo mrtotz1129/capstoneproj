@@ -59,6 +59,7 @@ namespace SLS.Member.Application
                 txtDepartment.Clear();
             }
         }
+
         private void rbPartTime_CheckedChanged(object sender, EventArgs e)
         {
             if (rbPartTime.Checked == true)
@@ -449,6 +450,7 @@ namespace SLS.Member.Application
             txtGSISSSS.Clear();
             txtInitialCapital.Clear();
             txtMultiplier.Clear();
+            txtCI.Clear();
             txtAge.Clear();
             txtFee.Clear();
             //ContactInformation
@@ -562,7 +564,7 @@ namespace SLS.Member.Application
                     txtFN.Text = Convert.ToString(reader[1]);
                     txtMN.Text = Convert.ToString(reader[2]);
                     txtLN.Text = Convert.ToString(reader[3]);
-                        if (Convert.ToBoolean(reader[4]) == true)
+                    if (Convert.ToBoolean(reader[4]) == true)
                     {
                         cmbGender.SelectedIndex = 0;
                     }
@@ -874,6 +876,11 @@ namespace SLS.Member.Application
                 isValid = 1;
                 er1.Visible = true;
             }
+            if (ctrlString.checkString(txtCI.Text) == 1)
+            {
+                isValid = 1;
+                er9.Visible = true;
+            }
             if (ctrlString.checkString(txtCPLN.Text) == 1)
             {
                 isValid = 1;
@@ -1115,10 +1122,10 @@ namespace SLS.Member.Application
         {
             if (SLS.Static.ID == 0)
             {
-                if (checkValues() == 0)
+                if (checkValues()==0)
                 {
                     SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
-                    String sql = "INSERT INTO MEMBER (MemberTypeID, fName, mName, lName, gender, birthDate, civilStatus, gsisNo, educAttainment, paidMembershipFee, applyDate, seminarDate, initialCapital, multiplier, isActive) VALUES ((SELECT MemberTypeID FROM MEMBERTYPE WHERE MemberTypeName = @MemberTypeName), @fName, @mName, @lName, @gender, @birthDate, @civilStatus, @gsisNo, @educAttainment, @paidMembershipFee, @applyDate, @seminarDate, @isActive); SELECT SCOPE_IDENTIY()";
+                    String sql = "INSERT INTO MEMBER (MemberTypeID, fName, mName, lName, gender, birthDate, civilStatus, gsisNo, educAttainment, paidMembershipFee, applyDate, seminarDate, initialCapital, multiplier, isActive) VALUES ((SELECT MemberTypeID FROM MEMBERTYPE WHERE MemberTypeName = @MemberTypeName), @fName, @mName, @lName, @gender, @birthDate, @civilStatus, @gsisNo, @educAttainment, @paidMembershipFee, @applyDate, @seminarDate, @initialCapital, @multiplier, @isActive)";
                     Dictionary<String, Object> parameters = new Dictionary<string, object>();
                     parameters.Add("@MemberTypeName", cmbMemberType.SelectedItem.ToString());
                     parameters.Add("@fName", txtFN.Text);
@@ -1132,14 +1139,23 @@ namespace SLS.Member.Application
                     parameters.Add("@paidMembershipFee", Convert.ToDecimal(txtFee.Text));
                     parameters.Add("@applyDate", Convert.ToDateTime(dtMembership.Value));
                     parameters.Add("@seminarDate", Convert.ToDateTime(dtSeminar.Value));
+                    parameters.Add("@initialCapital", Convert.ToDecimal(txtInitialCapital.Text));
+                    parameters.Add("@multiplier", Convert.ToInt32(txtMultiplier.Text));
                     parameters.Add("@isActive", true);
-                    SqlDataReader reader = con.executeReader(sql, parameters);
-                    if (reader.HasRows)
+                    int result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
+                    if (result == 1)
                     {
-                        reader.Read();
-                        MemberID = reader.GetInt32(0);
-                        MessageBox.Show("Adding a member is successful.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                         con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
+                         sql = "SELECT ISNULL(MAX(MemberID),1) FROM MEMBER";
+                         SqlDataReader reader = con.executeReader(sql);
+                         if (reader.HasRows)
+                         {
+                             reader.Read();
+                             MemberID = reader.GetInt32(0);
+                         }
 
+                        MessageBox.Show("Adding a member is successful.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        
                         con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
                         sql = "INSERT INTO CONTACTPERSON (contactFN, contactLN, contactMN, contactNo, MemberID) VALUES (@contactFN, @contactLN, @contactMN, @contactNo, @MemberID)";
                         parameters = new Dictionary<string, object>();
@@ -1148,7 +1164,7 @@ namespace SLS.Member.Application
                         parameters.Add("@contactMN", txtCPMN.Text);
                         parameters.Add("@contactNo", txtContact.Text);
                         parameters.Add("@MemberID", MemberID);
-                        int result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
+                        result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
 
 
                         sql = "INSERT INTO CONTACTINFORMATION (street, municipality, cityProvince, zipCode, residenceSince, telephoneNo, MemberID) VALUES (@street, @municipality, @cityProvince, @zipCode, @residenceSince, @telephoneNo, @MemberID)";
@@ -1161,50 +1177,50 @@ namespace SLS.Member.Application
                         parameters.Add("@telephoneNo", txtTelNo.Text);
                         parameters.Add("@MemberID", MemberID);
                         result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
-                        if (checkBox2.Checked == true)
-                        {
-                            sql = "INSERT INTO CONTACTINFORMATION (street, municipality, cityProvince, zipCode, residenceSince, telephoneNo, MemberID) VALUES (@street, @municipality, @cityProvince, @zipCode, @residenceSince, @telephoneNo, @MemberID)";
-                            parameters = new Dictionary<string, object>();
-                            parameters.Add("@street", txtStreet2.Text);
-                            parameters.Add("@municipality", txtMunicipality2.Text);
-                            parameters.Add("@cityProvince", txtCity2.Text);
-                            parameters.Add("@zipCode", txtZip2.Text);
-                            parameters.Add("@residenceSince", txtResidence2.Text);
-                            parameters.Add("@telephoneNo", txtTelNo2.Text);
-                            parameters.Add("@MemberID", MemberID);
-                            result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
-                        }
+                        if (checkBox2.Checked== true)
+                             {
+                                 sql = "INSERT INTO CONTACTINFORMATION (street, municipality, cityProvince, zipCode, residenceSince, telephoneNo, MemberID) VALUES (@street, @municipality, @cityProvince, @zipCode, @residenceSince, @telephoneNo, @MemberID)";
+                                 parameters = new Dictionary<string, object>();
+                                 parameters.Add("@street", txtStreet2.Text);
+                                 parameters.Add("@municipality", txtMunicipality2.Text);
+                                 parameters.Add("@cityProvince", txtCity2.Text);
+                                 parameters.Add("@zipCode", txtZip2.Text);
+                                 parameters.Add("@residenceSince", txtResidence2.Text);
+                                 parameters.Add("@telephoneNo", txtTelNo2.Text);
+                                 parameters.Add("@MemberID", MemberID);
+                                 result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
+                             }
 
                         addToEmploymentInformation();
-                        con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
-                        sql = "SELECT ISNULL(MAX(EmploymentInformationID),1) FROM EMPLOYMENTINFORMATION";
-                        reader = con.executeReader(sql);
-                        if (reader.HasRows)
-                        {
-                            reader.Read();
-                            EmploymentInformationID = reader.GetInt32(0);
-                        }
+                            con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
+                            sql = "SELECT ISNULL(MAX(EmploymentInformationID),1) FROM EMPLOYMENTINFORMATION";
+                            reader = con.executeReader(sql);
+                            if (reader.HasRows)
+                            {
+                                reader.Read();
+                                EmploymentInformationID = reader.GetInt32(0);
+                            }
                         if (occup == 0 || occup == 1 || occup == 2)
                         {
                             addToEmployed();
                         }
                         else
-                            if (occup == 3)
-                            {
-                                addToSelfEmployed();
-                            }
-
+                        if (occup == 3)
+                        {
+                           addToSelfEmployed();
+                        }
+                        
                         if (checkBox5.Checked == true)
                         {
                             addFatherRelationship();
                         }
                         if (checkBox1.Checked == true)
                         {
-                            addMotherRelationship();
+                           addMotherRelationship();
                         }
                         if (checkBox3.Checked == true)
                         {
-                            addSpouseRelationship();
+                           addSpouseRelationship();
                         }
                         if (tableChild.Rows.Count > 0)
                         {
@@ -1213,7 +1229,7 @@ namespace SLS.Member.Application
                                 addChildrenRelationship(ind);
                             }
                         }
-                        this.Close();
+
                     }
                     else
                     {
@@ -1248,7 +1264,18 @@ namespace SLS.Member.Application
                 if (result == 1)
                 {
                     MessageBox.Show("Updating a member is successful.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                    //Contact Person Delete
+                    con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
+                    sql = "DELETE FROM CONTACTPERSON WHERE MemberID = @MemberID";
+                    parameters = new Dictionary<string, object>();
+                    parameters.Add("@MemberID", SLS.Static.ID);
+                    result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
+                    //Contact Information Delete
+                    con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
+                    sql = "DELETE FROM CONTACTINFORMATION WHERE MemberID = @MemberID";
+                    parameters = new Dictionary<string, object>();
+                    parameters.Add("@MemberID", SLS.Static.ID);
+                    result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
                     //Employment Information Delete
                     con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
                     sql = "SELECT EmploymentInformationID FROM EMPLOYMENTINFORMATION WHERE MemberID = " + SLS.Static.ID + "";
@@ -1268,18 +1295,6 @@ namespace SLS.Member.Application
                         parameters.Add("employID", SLS.Static.ID);
                         result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
                     }
-                    //Contact Person Delete
-                    con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
-                    sql = "DELETE FROM CONTACTPERSON WHERE MemberID = @MemberID";
-                    parameters = new Dictionary<string, object>();
-                    parameters.Add("@MemberID", SLS.Static.ID);
-                    result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
-                    //Contact Information Delete
-                    con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
-                    sql = "DELETE FROM CONTACTINFORMATION WHERE MemberID = @MemberID";
-                    parameters = new Dictionary<string, object>();
-                    parameters.Add("@MemberID", SLS.Static.ID);
-                    result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
                     sql = "DELETE FROM EMPLOYMENTINFORMATION WHERE MemberID = @MemberID";
                     parameters = new Dictionary<string, object>();
                     parameters.Add("@MemberID", SLS.Static.ID);
@@ -1378,6 +1393,9 @@ namespace SLS.Member.Application
                 {
                     MessageBox.Show("Updating a member is not successful.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+                
+
+
             }
         }
 

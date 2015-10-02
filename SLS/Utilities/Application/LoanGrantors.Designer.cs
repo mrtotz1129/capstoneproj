@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.er4 = new System.Windows.Forms.Label();
-            this.txtPosition = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.er3 = new System.Windows.Forms.Label();
             this.er2 = new System.Windows.Forms.Label();
             this.er1 = new System.Windows.Forms.Label();
@@ -45,6 +42,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.er4 = new System.Windows.Forms.Label();
+            this.txtPosition = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,39 +67,10 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Location = new System.Drawing.Point(2, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(638, 293);
             this.panel1.TabIndex = 0;
-            // 
-            // er4
-            // 
-            this.er4.AutoSize = true;
-            this.er4.Font = new System.Drawing.Font("Segoe UI", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.er4.ForeColor = System.Drawing.Color.Red;
-            this.er4.Location = new System.Drawing.Point(235, 168);
-            this.er4.Name = "er4";
-            this.er4.Size = new System.Drawing.Size(14, 17);
-            this.er4.TabIndex = 47;
-            this.er4.Text = "*";
-            this.er4.Visible = false;
-            // 
-            // txtPosition
-            // 
-            this.txtPosition.Location = new System.Drawing.Point(252, 162);
-            this.txtPosition.Name = "txtPosition";
-            this.txtPosition.Size = new System.Drawing.Size(161, 29);
-            this.txtPosition.TabIndex = 46;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(171, 165);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 21);
-            this.label6.TabIndex = 45;
-            this.label6.Text = "Position:";
             // 
             // er3
             // 
@@ -237,12 +208,41 @@
             this.label1.TabIndex = 32;
             this.label1.Text = "Loan Grantors";
             // 
+            // er4
+            // 
+            this.er4.AutoSize = true;
+            this.er4.Font = new System.Drawing.Font("Segoe UI", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.er4.ForeColor = System.Drawing.Color.Red;
+            this.er4.Location = new System.Drawing.Point(235, 168);
+            this.er4.Name = "er4";
+            this.er4.Size = new System.Drawing.Size(14, 17);
+            this.er4.TabIndex = 47;
+            this.er4.Text = "*";
+            this.er4.Visible = false;
+            // 
+            // txtPosition
+            // 
+            this.txtPosition.Location = new System.Drawing.Point(252, 162);
+            this.txtPosition.Name = "txtPosition";
+            this.txtPosition.Size = new System.Drawing.Size(161, 29);
+            this.txtPosition.TabIndex = 46;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(171, 165);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(69, 21);
+            this.label6.TabIndex = 45;
+            this.label6.Text = "Position:";
+            // 
             // LoanGrantors
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(645, 300);
+            this.ClientSize = new System.Drawing.Size(643, 300);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;

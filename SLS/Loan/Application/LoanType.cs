@@ -15,8 +15,9 @@ namespace SLS.Loan.Application
     {
         String[] GraceString = { "Per Day", "Per Week", "Per Month", "Per Year" };
         DataTable table = new DataTable();
-        String[]  modeArr;
+        String[] chargesArr, modeArr;
         Int32[] termArr;
+        Int32 charges, term, mode;
 
         public LoanType()
         {
@@ -434,7 +435,7 @@ namespace SLS.Loan.Application
                         sInd = 0;
                         for (int i = 0; i < cListTerm.Items.Count; i++)
                         {
-                            if (cListTerm.GetItemCheckState(i) == CheckState.Checked)
+                            if (cListMode.GetItemCheckState(i) == CheckState.Checked)
                             {
                                 termArr[sInd] = Convert.ToInt32(cListTerm.Items[i].ToString());
                                 sInd++;

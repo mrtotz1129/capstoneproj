@@ -64,17 +64,10 @@ namespace SLS.Utilities.Database
         }
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            if(SLS.Static.ID != 0)
-            {
-                var child = new SLS.Utilities.Application.UserAccount();
-                child.FormClosed += closedUserAccount;
-                child.ShowDialog();
-            }
-            else
-            {
-                MessageBox.Show("Please select data from the database.", "Error", MessageBoxButtons.OK);
-            }
-            
+            SLS.Static.ID = 0;
+            var child = new SLS.Utilities.Application.UserAccount();
+            child.FormClosed += closedUserAccount;
+            child.ShowDialog();
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

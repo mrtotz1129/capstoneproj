@@ -4,7 +4,7 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SLSDBConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SLSDBConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SLS.Properties.Settings.GlobalReference.Default.SLSDBConnectionString1" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SLSDBConnectionString1" IsAppSettingsProperty="true" Modifier="Assembly" Name="SLSDBConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SLS.Properties.Settings.GlobalReference.Default.SLSDBConnectionString1" Provider="System.Data.SqlClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="USERVIEWTableAdapter" GeneratorDataComponentClassName="USERVIEWTableAdapter" Name="USERVIEW" UserDataComponentName="USERVIEWTableAdapter">
@@ -36,7 +36,7 @@
   <xs:element name="SLSDBDataSet7" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SLSDBDataSet7" msprop:Generator_UserDSName="SLSDBDataSet7">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="USERVIEW" msprop:Generator_TableClassName="USERVIEWDataTable" msprop:Generator_TableVarName="tableUSERVIEW" msprop:Generator_TablePropName="USERVIEW" msprop:Generator_RowDeletingName="USERVIEWRowDeleting" msprop:Generator_RowChangingName="USERVIEWRowChanging" msprop:Generator_RowEvHandlerName="USERVIEWRowChangeEventHandler" msprop:Generator_RowDeletedName="USERVIEWRowDeleted" msprop:Generator_UserTableName="USERVIEW" msprop:Generator_RowChangedName="USERVIEWRowChanged" msprop:Generator_RowEvArgName="USERVIEWRowChangeEvent" msprop:Generator_RowClassName="USERVIEWRow">
+        <xs:element name="USERVIEW" msprop:Generator_TableClassName="USERVIEWDataTable" msprop:Generator_TableVarName="tableUSERVIEW" msprop:Generator_RowChangedName="USERVIEWRowChanged" msprop:Generator_TablePropName="USERVIEW" msprop:Generator_RowDeletingName="USERVIEWRowDeleting" msprop:Generator_RowChangingName="USERVIEWRowChanging" msprop:Generator_RowEvHandlerName="USERVIEWRowChangeEventHandler" msprop:Generator_RowDeletedName="USERVIEWRowDeleted" msprop:Generator_RowClassName="USERVIEWRow" msprop:Generator_UserTableName="USERVIEW" msprop:Generator_RowEvArgName="USERVIEWRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="User_x0020_Account_x0020_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnUser_Account_ID" msprop:Generator_ColumnPropNameInRow="User_Account_ID" msprop:Generator_ColumnPropNameInTable="User_Account_IDColumn" msprop:Generator_UserColumnName="User Account ID" type="xs:int" />

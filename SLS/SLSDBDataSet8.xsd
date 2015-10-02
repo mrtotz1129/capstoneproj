@@ -4,7 +4,7 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SLSDBConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SLSDBConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SLS.Properties.Settings.GlobalReference.Default.SLSDBConnectionString1" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SLSDBConnectionString1" IsAppSettingsProperty="true" Modifier="Assembly" Name="SLSDBConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SLS.Properties.Settings.GlobalReference.Default.SLSDBConnectionString1" Provider="System.Data.SqlClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="GRANTORVIEWTableAdapter" GeneratorDataComponentClassName="GRANTORVIEWTableAdapter" Name="GRANTORVIEW" UserDataComponentName="GRANTORVIEWTableAdapter">
@@ -36,7 +36,7 @@
   <xs:element name="SLSDBDataSet8" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SLSDBDataSet8" msprop:Generator_UserDSName="SLSDBDataSet8">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="GRANTORVIEW" msprop:Generator_TableClassName="GRANTORVIEWDataTable" msprop:Generator_TableVarName="tableGRANTORVIEW" msprop:Generator_TablePropName="GRANTORVIEW" msprop:Generator_RowDeletingName="GRANTORVIEWRowDeleting" msprop:Generator_RowChangingName="GRANTORVIEWRowChanging" msprop:Generator_RowEvHandlerName="GRANTORVIEWRowChangeEventHandler" msprop:Generator_RowDeletedName="GRANTORVIEWRowDeleted" msprop:Generator_UserTableName="GRANTORVIEW" msprop:Generator_RowChangedName="GRANTORVIEWRowChanged" msprop:Generator_RowEvArgName="GRANTORVIEWRowChangeEvent" msprop:Generator_RowClassName="GRANTORVIEWRow">
+        <xs:element name="GRANTORVIEW" msprop:Generator_TableClassName="GRANTORVIEWDataTable" msprop:Generator_TableVarName="tableGRANTORVIEW" msprop:Generator_RowChangedName="GRANTORVIEWRowChanged" msprop:Generator_TablePropName="GRANTORVIEW" msprop:Generator_RowDeletingName="GRANTORVIEWRowDeleting" msprop:Generator_RowChangingName="GRANTORVIEWRowChanging" msprop:Generator_RowEvHandlerName="GRANTORVIEWRowChangeEventHandler" msprop:Generator_RowDeletedName="GRANTORVIEWRowDeleted" msprop:Generator_RowClassName="GRANTORVIEWRow" msprop:Generator_UserTableName="GRANTORVIEW" msprop:Generator_RowEvArgName="GRANTORVIEWRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Loan_x0020_Grantor_x0020_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnLoan_Grantor_ID" msprop:Generator_ColumnPropNameInRow="Loan_Grantor_ID" msprop:Generator_ColumnPropNameInTable="Loan_Grantor_IDColumn" msprop:Generator_UserColumnName="Loan Grantor ID" type="xs:int" />
