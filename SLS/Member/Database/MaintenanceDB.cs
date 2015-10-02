@@ -16,8 +16,8 @@ namespace SLS.Member.Database
         public MaintenanceDB()
         {
             InitializeComponent();
-            loadDatabase();
             defaultAll();
+            loadDatabase();
         }
         String[] FilterString = { "No Filter", "Active", "Not Active" };
         public void defaultAll()
@@ -26,30 +26,6 @@ namespace SLS.Member.Database
             for (int i = 0; i < FilterString.Length; i++)
             {
                 cobFilter.Items.Add("" + FilterString[i]);
-            }
-        }
-        public void loadDatabase()
-        {
-            if(SLS.Static.hasSearch == 0)
-            {
-                SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
-                String sql = SLS.Static.sql;
-                DataSet ds = con.executeDataSet(sql, "Member Type");
-                dataGridView1.DataSource = ds;
-                dataGridView1.DataMember = "Member Type";
-                dataGridView1.Columns[0].Visible = false;
-                dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            }
-            else
-            {
-                SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
-                String sql = SLS.Static.sqlParams;
-                DataSet ds = con.executeDataSet(sql, SLS.Static.parameters,"Member Type");
-                dataGridView1.DataSource = ds;
-                dataGridView1.DataMember = "Member Type";
-                dataGridView1.Columns[0].Visible = false;
-                dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            
             }
         }
         private void btnCancel_Click(object sender, EventArgs e)
@@ -100,8 +76,8 @@ namespace SLS.Member.Database
                     if (result == 1)
                     {
                         MessageBox.Show("A Member Type is Updated.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        loadDatabase();
                         btnDelete.Text = "DELETE";
+                        loadDatabase();
                     }
                     else
                     {
@@ -119,8 +95,8 @@ namespace SLS.Member.Database
                     if (result == 1)
                     {
                         MessageBox.Show("A Member Type is Updated.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        loadDatabase();
                         btnDelete.Text = "DELETE";
+                        loadDatabase();
                     }
                     else
                     {
@@ -148,6 +124,17 @@ namespace SLS.Member.Database
                     btnDelete.Text = "ACTIVATE";
                 }
             }
+        }
+
+        private void MaintenanceDB_Load(object sender, EventArgs e)
+        {
+            
+        }
+        private void loadDatabase()
+        {
+            this.mEMBERTYPEVIEWTableAdapter.Fill(this.sLSDBDataSet2.MEMBERTYPEVIEW);
+            dataGridView1.Columns[0].Visible = false;
+            dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
         }
     }
 }

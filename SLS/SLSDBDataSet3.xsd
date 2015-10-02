@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SLSDBDataSet3" targetNamespace="http://tempuri.org/SLSDBDataSet3.xsd" xmlns:mstns="http://tempuri.org/SLSDBDataSet3.xsd" xmlns="http://tempuri.org/SLSDBDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SLSDBConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SLSDBConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SLS.Properties.Settings.GlobalReference.Default.SLSDBConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SAVINGSTYPEVIEWTableAdapter" GeneratorDataComponentClassName="SAVINGSTYPEVIEWTableAdapter" Name="SAVINGSTYPEVIEW" UserDataComponentName="SAVINGSTYPEVIEWTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SLSDBConnectionString1 (Settings)" DbObjectName="SLSDB.dbo.SAVINGSTYPEVIEW" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, [Savings Type], [Interest Rate], [Initial Deposit], [Maintaining Balance], [Balance To Earn Rate], [Maximum Withdrawal], Status FROM dbo.SAVINGSTYPEVIEW</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Savings Type" DataSetColumn="Savings Type" />
+              <Mapping SourceColumn="Interest Rate" DataSetColumn="Interest Rate" />
+              <Mapping SourceColumn="Initial Deposit" DataSetColumn="Initial Deposit" />
+              <Mapping SourceColumn="Maintaining Balance" DataSetColumn="Maintaining Balance" />
+              <Mapping SourceColumn="Balance To Earn Rate" DataSetColumn="Balance To Earn Rate" />
+              <Mapping SourceColumn="Maximum Withdrawal" DataSetColumn="Maximum Withdrawal" />
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SLSDBDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SLSDBDataSet3" msprop:Generator_UserDSName="SLSDBDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SAVINGSTYPEVIEW" msprop:Generator_TableClassName="SAVINGSTYPEVIEWDataTable" msprop:Generator_TableVarName="tableSAVINGSTYPEVIEW" msprop:Generator_TablePropName="SAVINGSTYPEVIEW" msprop:Generator_RowDeletingName="SAVINGSTYPEVIEWRowDeleting" msprop:Generator_RowChangingName="SAVINGSTYPEVIEWRowChanging" msprop:Generator_RowEvHandlerName="SAVINGSTYPEVIEWRowChangeEventHandler" msprop:Generator_RowDeletedName="SAVINGSTYPEVIEWRowDeleted" msprop:Generator_UserTableName="SAVINGSTYPEVIEW" msprop:Generator_RowChangedName="SAVINGSTYPEVIEWRowChanged" msprop:Generator_RowEvArgName="SAVINGSTYPEVIEWRowChangeEvent" msprop:Generator_RowClassName="SAVINGSTYPEVIEWRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Savings_x0020_Type" msprop:Generator_ColumnVarNameInTable="columnSavings_Type" msprop:Generator_ColumnPropNameInRow="Savings_Type" msprop:Generator_ColumnPropNameInTable="Savings_TypeColumn" msprop:Generator_UserColumnName="Savings Type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Interest_x0020_Rate" msprop:Generator_ColumnVarNameInTable="columnInterest_Rate" msprop:Generator_ColumnPropNameInRow="Interest_Rate" msprop:Generator_ColumnPropNameInTable="Interest_RateColumn" msprop:Generator_UserColumnName="Interest Rate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Initial_x0020_Deposit" msprop:Generator_ColumnVarNameInTable="columnInitial_Deposit" msprop:Generator_ColumnPropNameInRow="Initial_Deposit" msprop:Generator_ColumnPropNameInTable="Initial_DepositColumn" msprop:Generator_UserColumnName="Initial Deposit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Maintaining_x0020_Balance" msprop:Generator_ColumnVarNameInTable="columnMaintaining_Balance" msprop:Generator_ColumnPropNameInRow="Maintaining_Balance" msprop:Generator_ColumnPropNameInTable="Maintaining_BalanceColumn" msprop:Generator_UserColumnName="Maintaining Balance" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Balance_x0020_To_x0020_Earn_x0020_Rate" msprop:Generator_ColumnVarNameInTable="columnBalance_To_Earn_Rate" msprop:Generator_ColumnPropNameInRow="Balance_To_Earn_Rate" msprop:Generator_ColumnPropNameInTable="Balance_To_Earn_RateColumn" msprop:Generator_UserColumnName="Balance To Earn Rate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Maximum_x0020_Withdrawal" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMaximum_Withdrawal" msprop:Generator_ColumnPropNameInRow="Maximum_Withdrawal" msprop:Generator_ColumnPropNameInTable="Maximum_WithdrawalColumn" msprop:Generator_UserColumnName="Maximum Withdrawal" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="38" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SAVINGSTYPEVIEW" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

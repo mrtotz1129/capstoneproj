@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SLSDBDataSet2" targetNamespace="http://tempuri.org/SLSDBDataSet2.xsd" xmlns:mstns="http://tempuri.org/SLSDBDataSet2.xsd" xmlns="http://tempuri.org/SLSDBDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SLSDBConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SLSDBConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SLS.Properties.Settings.GlobalReference.Default.SLSDBConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="MEMBERTYPEVIEWTableAdapter" GeneratorDataComponentClassName="MEMBERTYPEVIEWTableAdapter" Name="MEMBERTYPEVIEW" UserDataComponentName="MEMBERTYPEVIEWTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SLSDBConnectionString1 (Settings)" DbObjectName="SLSDB.dbo.MEMBERTYPEVIEW" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Member Type ID], [Member Type Name], [Age Requirement], [Savings Deposit], [Time Deposit], [Loan Services], [Share Capital], Status FROM dbo.MEMBERTYPEVIEW</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Member Type ID" DataSetColumn="Member Type ID" />
+              <Mapping SourceColumn="Member Type Name" DataSetColumn="Member Type Name" />
+              <Mapping SourceColumn="Age Requirement" DataSetColumn="Age Requirement" />
+              <Mapping SourceColumn="Savings Deposit" DataSetColumn="Savings Deposit" />
+              <Mapping SourceColumn="Time Deposit" DataSetColumn="Time Deposit" />
+              <Mapping SourceColumn="Loan Services" DataSetColumn="Loan Services" />
+              <Mapping SourceColumn="Share Capital" DataSetColumn="Share Capital" />
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SLSDBDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SLSDBDataSet2" msprop:Generator_UserDSName="SLSDBDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MEMBERTYPEVIEW" msprop:Generator_TableClassName="MEMBERTYPEVIEWDataTable" msprop:Generator_TableVarName="tableMEMBERTYPEVIEW" msprop:Generator_TablePropName="MEMBERTYPEVIEW" msprop:Generator_RowDeletingName="MEMBERTYPEVIEWRowDeleting" msprop:Generator_RowChangingName="MEMBERTYPEVIEWRowChanging" msprop:Generator_RowEvHandlerName="MEMBERTYPEVIEWRowChangeEventHandler" msprop:Generator_RowDeletedName="MEMBERTYPEVIEWRowDeleted" msprop:Generator_UserTableName="MEMBERTYPEVIEW" msprop:Generator_RowChangedName="MEMBERTYPEVIEWRowChanged" msprop:Generator_RowEvArgName="MEMBERTYPEVIEWRowChangeEvent" msprop:Generator_RowClassName="MEMBERTYPEVIEWRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Member_x0020_Type_x0020_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnMember_Type_ID" msprop:Generator_ColumnPropNameInRow="Member_Type_ID" msprop:Generator_ColumnPropNameInTable="Member_Type_IDColumn" msprop:Generator_UserColumnName="Member Type ID" type="xs:int" />
+              <xs:element name="Member_x0020_Type_x0020_Name" msprop:Generator_ColumnVarNameInTable="columnMember_Type_Name" msprop:Generator_ColumnPropNameInRow="Member_Type_Name" msprop:Generator_ColumnPropNameInTable="Member_Type_NameColumn" msprop:Generator_UserColumnName="Member Type Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Age_x0020_Requirement" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAge_Requirement" msprop:Generator_ColumnPropNameInRow="Age_Requirement" msprop:Generator_ColumnPropNameInTable="Age_RequirementColumn" msprop:Generator_UserColumnName="Age Requirement" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="37" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Savings_x0020_Deposit" msprop:Generator_ColumnVarNameInTable="columnSavings_Deposit" msprop:Generator_ColumnPropNameInRow="Savings_Deposit" msprop:Generator_ColumnPropNameInTable="Savings_DepositColumn" msprop:Generator_UserColumnName="Savings Deposit" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Time_x0020_Deposit" msprop:Generator_ColumnVarNameInTable="columnTime_Deposit" msprop:Generator_ColumnPropNameInRow="Time_Deposit" msprop:Generator_ColumnPropNameInTable="Time_DepositColumn" msprop:Generator_UserColumnName="Time Deposit" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Loan_x0020_Services" msprop:Generator_ColumnVarNameInTable="columnLoan_Services" msprop:Generator_ColumnPropNameInRow="Loan_Services" msprop:Generator_ColumnPropNameInTable="Loan_ServicesColumn" msprop:Generator_UserColumnName="Loan Services" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Share_x0020_Capital" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnShare_Capital" msprop:Generator_ColumnPropNameInRow="Share_Capital" msprop:Generator_ColumnPropNameInTable="Share_CapitalColumn" msprop:Generator_UserColumnName="Share Capital" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MEMBERTYPEVIEW" />
+      <xs:field xpath="mstns:Member_x0020_Type_x0020_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

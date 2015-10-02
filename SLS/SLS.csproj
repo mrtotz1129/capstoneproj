@@ -91,6 +91,46 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SLSDBDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="SLSDBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SLSDBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SLSDBDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SLSDBDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SLSDBDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SLSDBDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SLSDBDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SLSDBDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SLSDBDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SLSDBDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SLSDBDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SLSDBDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SLSDBDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SLSDBDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SLSDBDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SLSDBDataSet9.xsd</DependentUpon>
+    </Compile>
     <Compile Include="TimeDeposit\Application\ClosureRenewal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -665,6 +705,94 @@
     </None>
     <None Include="SLSDBDataSet1.xss">
       <DependentUpon>SLSDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet2.xsc">
+      <DependentUpon>SLSDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SLSDBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SLSDBDataSet2.xss">
+      <DependentUpon>SLSDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet3.xsc">
+      <DependentUpon>SLSDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SLSDBDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SLSDBDataSet3.xss">
+      <DependentUpon>SLSDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet4.xsc">
+      <DependentUpon>SLSDBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SLSDBDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SLSDBDataSet4.xss">
+      <DependentUpon>SLSDBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet5.xsc">
+      <DependentUpon>SLSDBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SLSDBDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SLSDBDataSet5.xss">
+      <DependentUpon>SLSDBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet6.xsc">
+      <DependentUpon>SLSDBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SLSDBDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SLSDBDataSet6.xss">
+      <DependentUpon>SLSDBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet7.xsc">
+      <DependentUpon>SLSDBDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SLSDBDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SLSDBDataSet7.xss">
+      <DependentUpon>SLSDBDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet8.xsc">
+      <DependentUpon>SLSDBDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SLSDBDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SLSDBDataSet8.xss">
+      <DependentUpon>SLSDBDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet9.xsc">
+      <DependentUpon>SLSDBDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="SLSDBDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SLSDBDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SLSDBDataSet9.xss">
+      <DependentUpon>SLSDBDataSet9.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

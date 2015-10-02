@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SLSDBDataSet9" targetNamespace="http://tempuri.org/SLSDBDataSet9.xsd" xmlns:mstns="http://tempuri.org/SLSDBDataSet9.xsd" xmlns="http://tempuri.org/SLSDBDataSet9.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SLSDBConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SLSDBConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SLS.Properties.Settings.GlobalReference.Default.SLSDBConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CREDITINVESTIGATORVIEWTableAdapter" GeneratorDataComponentClassName="CREDITINVESTIGATORVIEWTableAdapter" Name="CREDITINVESTIGATORVIEW" UserDataComponentName="CREDITINVESTIGATORVIEWTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SLSDBConnectionString1 (Settings)" DbObjectName="SLSDB.dbo.CREDITINVESTIGATORVIEW" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Credit Investigator ID], [First Name], [Middle Name], [Last Name], status FROM dbo.CREDITINVESTIGATORVIEW</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Credit Investigator ID" DataSetColumn="Credit Investigator ID" />
+              <Mapping SourceColumn="First Name" DataSetColumn="First Name" />
+              <Mapping SourceColumn="Middle Name" DataSetColumn="Middle Name" />
+              <Mapping SourceColumn="Last Name" DataSetColumn="Last Name" />
+              <Mapping SourceColumn="status" DataSetColumn="status" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SLSDBDataSet9" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SLSDBDataSet9" msprop:Generator_UserDSName="SLSDBDataSet9">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CREDITINVESTIGATORVIEW" msprop:Generator_TableClassName="CREDITINVESTIGATORVIEWDataTable" msprop:Generator_TableVarName="tableCREDITINVESTIGATORVIEW" msprop:Generator_TablePropName="CREDITINVESTIGATORVIEW" msprop:Generator_RowDeletingName="CREDITINVESTIGATORVIEWRowDeleting" msprop:Generator_RowChangingName="CREDITINVESTIGATORVIEWRowChanging" msprop:Generator_RowEvHandlerName="CREDITINVESTIGATORVIEWRowChangeEventHandler" msprop:Generator_RowDeletedName="CREDITINVESTIGATORVIEWRowDeleted" msprop:Generator_UserTableName="CREDITINVESTIGATORVIEW" msprop:Generator_RowChangedName="CREDITINVESTIGATORVIEWRowChanged" msprop:Generator_RowEvArgName="CREDITINVESTIGATORVIEWRowChangeEvent" msprop:Generator_RowClassName="CREDITINVESTIGATORVIEWRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Credit_x0020_Investigator_x0020_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnCredit_Investigator_ID" msprop:Generator_ColumnPropNameInRow="Credit_Investigator_ID" msprop:Generator_ColumnPropNameInTable="Credit_Investigator_IDColumn" msprop:Generator_UserColumnName="Credit Investigator ID" type="xs:int" />
+              <xs:element name="First_x0020_Name" msprop:Generator_ColumnVarNameInTable="columnFirst_Name" msprop:Generator_ColumnPropNameInRow="First_Name" msprop:Generator_ColumnPropNameInTable="First_NameColumn" msprop:Generator_UserColumnName="First Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Middle_x0020_Name" msprop:Generator_ColumnVarNameInTable="columnMiddle_Name" msprop:Generator_ColumnPropNameInRow="Middle_Name" msprop:Generator_ColumnPropNameInTable="Middle_NameColumn" msprop:Generator_UserColumnName="Middle Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Last_x0020_Name" msprop:Generator_ColumnVarNameInTable="columnLast_Name" msprop:Generator_ColumnPropNameInRow="Last_Name" msprop:Generator_ColumnPropNameInTable="Last_NameColumn" msprop:Generator_UserColumnName="Last Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CREDITINVESTIGATORVIEW" />
+      <xs:field xpath="mstns:Credit_x0020_Investigator_x0020_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

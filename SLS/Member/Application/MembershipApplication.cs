@@ -19,6 +19,7 @@ namespace SLS.Member.Application
         String[] childGenderString = { "Male", "Female"};
         DataTable tableChild = new DataTable();
         Int32 sChild = 0, EmploymentInformationID = 0, employID = 0, occup = 0, emptype = 0, MemberID = 0, age = 0;
+        Decimal initCapital = 0;
 
         public MembershipApplication()
         {
@@ -371,6 +372,16 @@ namespace SLS.Member.Application
             while (reader.Read())
             {
                 cmbMemberType.Items.Insert(x, "" + reader.GetString(0));
+                x++;
+            }
+            con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
+            sql = "SELECT CONCAT(fName,' ',mName,' ',lName) FROM CREDITINVESTIGATOR WHERE [status] = 1";
+            reader = con.executeReader(sql);
+            x = 0;
+            cobCI.Items.Clear();
+            while (reader.Read())
+            {
+                cobCI.Items.Insert(x, "" + reader.GetString(0));
                 x++;
             }
             //Default Table Child
@@ -891,7 +902,11 @@ namespace SLS.Member.Application
             }
             try
             {
-                Convert.ToDecimal(txtInitialCapital.Text);
+                if(Convert.ToDecimal(txtInitialCapital.Text) < initCapital)
+                {
+                    isValid = 1;
+                    er7.Visible = true;
+                }
             }
             catch(Exception)
             {
@@ -918,12 +933,21 @@ namespace SLS.Member.Application
             }
             try
             {
-                Convert.ToDecimal(txtMultiplier.Text);
+                Convert.ToInt32(txtMultiplier.Text);
             }
             catch (Exception)
             {
                 isValid = 1;
                 er8.Visible = true;
+            }
+            try
+            {
+                Convert.ToInt32(cobCI.SelectedIndex);
+            }
+            catch (Exception)
+            {
+                isValid = 1;
+                er4.Visible = true;
             }
             try
             {
@@ -1266,6 +1290,87 @@ namespace SLS.Member.Application
                     parameters = new Dictionary<string, object>();
                     parameters.Add("@MemberID", SLS.Static.ID);
                     result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
+                    
+                    
+                    //UPDATE UPDATE UPDATE UPDATE UPDATE UPDATE
+                    
+                    //Update Contact Person
+                    sql = "INSERT INTO CONTACTPERSON (contactFN, contactLN, contactMN, contactNo, MemberID) VALUES (@contactFN, @contactLN, @contactMN, @contactNo, @MemberID) WHERE MemberID = @MemberID";
+                    parameters = new Dictionary<string, object>();
+                    parameters.Add("@contactFN", txtCPFN.Text);
+                    parameters.Add("@contactLN", txtCPLN.Text);
+                    parameters.Add("@contactMN", txtCPMN.Text);
+                    parameters.Add("@contactNo", txtContact.Text);
+                    parameters.Add("@MemberID", MemberID);
+                    result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
+
+                    //Update Contact Information
+                    sql = "INSERT INTO CONTACTINFORMATION (street, municipality, cityProvince, zipCode, residenceSince, telephoneNo, MemberID) VALUES (@street, @municipality, @cityProvince, @zipCode, @residenceSince, @telephoneNo, @MemberID) WHERE MemberID = @MemberID";
+                    parameters = new Dictionary<string, object>();
+                    parameters.Add("@street", txtStreet.Text);
+                    parameters.Add("@municipality", txtMunicipality.Text);
+                    parameters.Add("@cityProvince", txtCity.Text);
+                    parameters.Add("@zipCode", txtZip.Text);
+                    parameters.Add("@residenceSince", txtResidence.Text);
+                    parameters.Add("@telephoneNo", txtTelNo.Text);
+                    parameters.Add("@MemberID", MemberID);
+                    result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
+                    if (checkBox2.Checked == true)
+                    {
+                        sql = "INSERT INTO CONTACTINFORMATION (street, municipality, cityProvince, zipCode, residenceSince, telephoneNo, MemberID) VALUES (@street, @municipality, @cityProvince, @zipCode, @residenceSince, @telephoneNo, @MemberID) WHERE MemberID = @MemberID";
+                        parameters = new Dictionary<string, object>();
+                        parameters.Add("@street", txtStreet2.Text);
+                        parameters.Add("@municipality", txtMunicipality2.Text);
+                        parameters.Add("@cityProvince", txtCity2.Text);
+                        parameters.Add("@zipCode", txtZip2.Text);
+                        parameters.Add("@residenceSince", txtResidence2.Text);
+                        parameters.Add("@telephoneNo", txtTelNo2.Text);
+                        parameters.Add("@MemberID", MemberID);
+                        result = Convert.ToInt32(con.executeNonQuery(sql, parameters));
+                    }
+
+                    // Update Employment
+                    addToEmploymentInformation();
+                    sql = "SELECT ISNULL(MAX(EmploymentInformationID),1) FROM EMPLOYMENTINFORMATION";
+                    reader = con.executeReader(sql);
+                    if (reader.HasRows)
+                    {
+                        reader.Read();
+                        EmploymentInformationID = reader.GetInt32(0);
+                    }
+                    if (occup == 0 || occup == 1 || occup == 2)
+                    {
+                        addToEmployed();
+                    }
+                    else
+                        if (occup == 3)
+                        {
+                            addToSelfEmployed();
+                        }
+
+                    if (checkBox5.Checked == true)
+                    {
+                        addFatherRelationship();
+                    }
+                    if (checkBox1.Checked == true)
+                    {
+                        addMotherRelationship();
+                    }
+                    if (checkBox3.Checked == true)
+                    {
+                        addSpouseRelationship();
+                    }
+                    if (tableChild.Rows.Count > 0)
+                    {
+                        for (int ind = 0; ind < tableChild.Rows.Count; ind++)
+                        {
+                            addChildrenRelationship(ind);
+                        }
+                    }
+
+
+                    
+                    
                     defaultAll();
                     this.Close();
                 }
@@ -1566,27 +1671,28 @@ namespace SLS.Member.Application
              String sql = "SELECT Fee, ShareRequired FROM MEMBERTYPE WHERE MemberTypeName = @MemberTypeName";
             Dictionary<String, Object> parameters = new Dictionary<string,object>();
             parameters.Add("@MemberTypeName",cmbMemberType.SelectedItem.ToString());
-            SqlDataReader reader = con.executeReader(sql);
+            SqlDataReader reader = con.executeReader(sql, parameters);
             if (reader.HasRows)
             {
                 reader.Read();
-                txtFee.Text = Convert.ToString(reader[0]);
+                txtFee.Text = String.Format("{0:0.00}",reader[0]);
                 txtFee.Enabled = false;
                 if(Convert.ToDecimal(reader[1]) == 0)
                 {
-                    txtInitialCapital.Text = Convert.ToString(0);
-                    txtInitialCapital.Visible = false;
-                    txtMultiplier.Visible = false;
-                    label17.Visible = false;
-                    label74.Visible = false;
+                    txtInitialCapital.Clear();
+                    txtInitialCapital.Enabled = false;
+                    txtMultiplier.Enabled = false;
+                    label17.Enabled = false;
+                    label74.Enabled = false;
                 }
                 else
                 {
                     txtInitialCapital.Text = Convert.ToString(reader[1]);
-                    txtInitialCapital.Visible = true;
-                    txtMultiplier.Visible =true;
-                    label17.Visible = true;
-                    label74.Visible = true;
+                    initCapital = Convert.ToDecimal(reader[1]);
+                    txtInitialCapital.Enabled = true;
+                    txtMultiplier.Enabled =true;
+                    label17.Enabled = true;
+                    label74.Enabled = true;
                 }
             }
         }

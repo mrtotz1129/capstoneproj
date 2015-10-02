@@ -28,11 +28,7 @@ namespace SLS.SavingsDeposit.Database
         }
         public void loadDatabase()
         {
-            SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
-            String sql = SLS.Static.sql;
-            DataSet ds = con.executeDataSet(sql, "Savings Type");
-            dataGridView1.DataSource = ds;
-            dataGridView1.DataMember = "Savings Type";
+            this.sAVINGSTYPEVIEWTableAdapter.Fill(this.sLSDBDataSet3.SAVINGSTYPEVIEW);
             dataGridView1.Columns[0].Visible = false;
             dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
         }
@@ -135,6 +131,13 @@ namespace SLS.SavingsDeposit.Database
                     btnStatus.Text = "ACTIVATE";
                 }
             }
+        }
+
+        private void SavingsTypeDB_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'sLSDBDataSet3.SAVINGSTYPEVIEW' table. You can move, or remove it, as needed.
+            
+
         }
     }
 }

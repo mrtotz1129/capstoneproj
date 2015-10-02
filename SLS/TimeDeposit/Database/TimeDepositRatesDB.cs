@@ -29,11 +29,7 @@ namespace SLS.TimeDeposit.Database
         }
         public void loadDatabase()
         {
-            SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
-            String sql = SLS.Static.sql;
-            DataSet ds = con.executeDataSet(sql, "Time Deposit Rates");
-            dataGridView1.DataSource = ds;
-            dataGridView1.DataMember = "Time Deposit Rates";
+            this.tIMEDEPOSITRATESVIEWTableAdapter.Fill(this.sLSDBDataSet5.TIMEDEPOSITRATESVIEW);
             dataGridView1.Columns[0].Visible = false;
             dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
         }
@@ -122,6 +118,13 @@ namespace SLS.TimeDeposit.Database
                     MessageBox.Show("Updating a time deposit rate is not successful.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        private void TimeDepositRatesDB_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'sLSDBDataSet5.TIMEDEPOSITRATESVIEW' table. You can move, or remove it, as needed.
+            
+
         }
     }
 }

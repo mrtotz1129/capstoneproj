@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
@@ -39,7 +40,17 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.sLSDBDataSet5 = new SLS.SLSDBDataSet5();
+            this.tIMEDEPOSITRATESVIEWBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tIMEDEPOSITRATESVIEWTableAdapter = new SLS.SLSDBDataSet5TableAdapters.TIMEDEPOSITRATESVIEWTableAdapter();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.noOfDaysDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.amountRangeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.interestDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sLSDBDataSet5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tIMEDEPOSITRATESVIEWBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -48,7 +59,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(259, 32);
+            this.label1.Size = new System.Drawing.Size(257, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "TIME DEPOSIT RATES";
             // 
@@ -148,12 +159,20 @@
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView1.ColumnHeadersHeight = 55;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.iDDataGridViewTextBoxColumn,
+            this.noOfDaysDataGridViewTextBoxColumn,
+            this.amountRangeDataGridViewTextBoxColumn,
+            this.interestDataGridViewTextBoxColumn,
+            this.statusDataGridViewCheckBoxColumn});
+            this.dataGridView1.DataSource = this.tIMEDEPOSITRATESVIEWBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(5, 41);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
@@ -178,6 +197,60 @@
             this.dataGridView1.TabIndex = 15;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
+            // sLSDBDataSet5
+            // 
+            this.sLSDBDataSet5.DataSetName = "SLSDBDataSet5";
+            this.sLSDBDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tIMEDEPOSITRATESVIEWBindingSource
+            // 
+            this.tIMEDEPOSITRATESVIEWBindingSource.DataMember = "TIMEDEPOSITRATESVIEW";
+            this.tIMEDEPOSITRATESVIEWBindingSource.DataSource = this.sLSDBDataSet5;
+            // 
+            // tIMEDEPOSITRATESVIEWTableAdapter
+            // 
+            this.tIMEDEPOSITRATESVIEWTableAdapter.ClearBeforeFill = true;
+            // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn.Width = 51;
+            // 
+            // noOfDaysDataGridViewTextBoxColumn
+            // 
+            this.noOfDaysDataGridViewTextBoxColumn.DataPropertyName = "No_ Of Days";
+            this.noOfDaysDataGridViewTextBoxColumn.HeaderText = "No_ Of Days";
+            this.noOfDaysDataGridViewTextBoxColumn.Name = "noOfDaysDataGridViewTextBoxColumn";
+            this.noOfDaysDataGridViewTextBoxColumn.ReadOnly = true;
+            this.noOfDaysDataGridViewTextBoxColumn.Width = 114;
+            // 
+            // amountRangeDataGridViewTextBoxColumn
+            // 
+            this.amountRangeDataGridViewTextBoxColumn.DataPropertyName = "Amount Range";
+            this.amountRangeDataGridViewTextBoxColumn.HeaderText = "Amount Range";
+            this.amountRangeDataGridViewTextBoxColumn.Name = "amountRangeDataGridViewTextBoxColumn";
+            this.amountRangeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.amountRangeDataGridViewTextBoxColumn.Width = 132;
+            // 
+            // interestDataGridViewTextBoxColumn
+            // 
+            this.interestDataGridViewTextBoxColumn.DataPropertyName = "Interest";
+            this.interestDataGridViewTextBoxColumn.HeaderText = "Interest";
+            this.interestDataGridViewTextBoxColumn.Name = "interestDataGridViewTextBoxColumn";
+            this.interestDataGridViewTextBoxColumn.ReadOnly = true;
+            this.interestDataGridViewTextBoxColumn.Width = 92;
+            // 
+            // statusDataGridViewCheckBoxColumn
+            // 
+            this.statusDataGridViewCheckBoxColumn.DataPropertyName = "Status";
+            this.statusDataGridViewCheckBoxColumn.HeaderText = "Status";
+            this.statusDataGridViewCheckBoxColumn.Name = "statusDataGridViewCheckBoxColumn";
+            this.statusDataGridViewCheckBoxColumn.ReadOnly = true;
+            this.statusDataGridViewCheckBoxColumn.Width = 61;
+            // 
             // TimeDepositRatesDB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -198,7 +271,10 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TimeDepositRatesDB";
             this.Text = "MemberType";
+            this.Load += new System.EventHandler(this.TimeDepositRatesDB_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sLSDBDataSet5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tIMEDEPOSITRATESVIEWBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,5 +291,13 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private SLSDBDataSet5 sLSDBDataSet5;
+        private System.Windows.Forms.BindingSource tIMEDEPOSITRATESVIEWBindingSource;
+        private SLSDBDataSet5TableAdapters.TIMEDEPOSITRATESVIEWTableAdapter tIMEDEPOSITRATESVIEWTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn noOfDaysDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn amountRangeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn interestDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn statusDataGridViewCheckBoxColumn;
     }
 }

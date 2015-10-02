@@ -33,11 +33,7 @@ namespace SLS.Utilities.Database
         {
             if (SLS.Static.hasSearch == 0)
             {
-                SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
-                String sql = SLS.Static.sql;
-                DataSet ds = con.executeDataSet(sql, "User Accounts");
-                dataGridView1.DataSource = ds;
-                dataGridView1.DataMember = "User Accounts";
+                this.uSERVIEWTableAdapter.Fill(this.sLSDBDataSet7.USERVIEW);
                 dataGridView1.Columns[0].Visible = false;
                 dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             }
@@ -158,6 +154,13 @@ namespace SLS.Utilities.Database
             var child = new SLS.Utilities.Application.ChangePass();
             child.FormClosed += closedUserAccount;
             child.ShowDialog();
+        }
+
+        private void UserAccountDB_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'sLSDBDataSet7.USERVIEW' table. You can move, or remove it, as needed.
+            
+
         }
     }
         

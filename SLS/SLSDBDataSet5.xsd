@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SLSDBDataSet5" targetNamespace="http://tempuri.org/SLSDBDataSet5.xsd" xmlns:mstns="http://tempuri.org/SLSDBDataSet5.xsd" xmlns="http://tempuri.org/SLSDBDataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SLSDBConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SLSDBConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SLS.Properties.Settings.GlobalReference.Default.SLSDBConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TIMEDEPOSITRATESVIEWTableAdapter" GeneratorDataComponentClassName="TIMEDEPOSITRATESVIEWTableAdapter" Name="TIMEDEPOSITRATESVIEW" UserDataComponentName="TIMEDEPOSITRATESVIEWTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SLSDBConnectionString1 (Settings)" DbObjectName="SLSDB.dbo.TIMEDEPOSITRATESVIEW" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, [No. Of Days], [Amount Range], Interest, Status FROM dbo.TIMEDEPOSITRATESVIEW</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="No. Of Days" DataSetColumn="No_ Of Days" />
+              <Mapping SourceColumn="Amount Range" DataSetColumn="Amount Range" />
+              <Mapping SourceColumn="Interest" DataSetColumn="Interest" />
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SLSDBDataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SLSDBDataSet5" msprop:Generator_UserDSName="SLSDBDataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TIMEDEPOSITRATESVIEW" msprop:Generator_TableClassName="TIMEDEPOSITRATESVIEWDataTable" msprop:Generator_TableVarName="tableTIMEDEPOSITRATESVIEW" msprop:Generator_TablePropName="TIMEDEPOSITRATESVIEW" msprop:Generator_RowDeletingName="TIMEDEPOSITRATESVIEWRowDeleting" msprop:Generator_RowChangingName="TIMEDEPOSITRATESVIEWRowChanging" msprop:Generator_RowEvHandlerName="TIMEDEPOSITRATESVIEWRowChangeEventHandler" msprop:Generator_RowDeletedName="TIMEDEPOSITRATESVIEWRowDeleted" msprop:Generator_UserTableName="TIMEDEPOSITRATESVIEW" msprop:Generator_RowChangedName="TIMEDEPOSITRATESVIEWRowChanged" msprop:Generator_RowEvArgName="TIMEDEPOSITRATESVIEWRowChangeEvent" msprop:Generator_RowClassName="TIMEDEPOSITRATESVIEWRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="No__x0020_Of_x0020_Days" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNo__Of_Days" msprop:Generator_ColumnPropNameInRow="No__Of_Days" msprop:Generator_ColumnPropNameInTable="No__Of_DaysColumn" msprop:Generator_UserColumnName="No_ Of Days" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="17" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Amount_x0020_Range" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAmount_Range" msprop:Generator_ColumnPropNameInRow="Amount_Range" msprop:Generator_ColumnPropNameInTable="Amount_RangeColumn" msprop:Generator_UserColumnName="Amount Range" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="85" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Interest" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnInterest" msprop:Generator_ColumnPropNameInRow="Interest" msprop:Generator_ColumnPropNameInTable="InterestColumn" msprop:Generator_UserColumnName="Interest" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="43" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TIMEDEPOSITRATESVIEW" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

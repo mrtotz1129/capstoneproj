@@ -21,11 +21,7 @@ namespace SLS.TimeDeposit.Database
         }
         public void loadDatabase()
         {
-            SQLStatement con = new SQLStatement(SLS.Static.Server, SLS.Static.Database);
-            String sql = SLS.Static.sql;
-            DataSet ds = con.executeDataSet(sql, "Time Deposit Penalty");
-            dataGridView1.DataSource = ds;
-            dataGridView1.DataMember = "Time Deposit Penalty";
+            this.tIMEDEPOSITPENALTYVIEWTableAdapter.Fill(this.sLSDBDataSet6.TIMEDEPOSITPENALTYVIEW);
             dataGridView1.Columns[0].Visible = false;
             dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
         }
@@ -147,6 +143,13 @@ namespace SLS.TimeDeposit.Database
                 }
 
             }
+        }
+
+        private void TimeDepositPenaltyDB_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'sLSDBDataSet6.TIMEDEPOSITPENALTYVIEW' table. You can move, or remove it, as needed.
+            
+
         }
     }
 }

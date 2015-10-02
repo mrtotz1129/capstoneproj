@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,7 +41,18 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnNew = new System.Windows.Forms.Button();
             this.btnChange = new System.Windows.Forms.Button();
+            this.sLSDBDataSet7 = new SLS.SLSDBDataSet7();
+            this.uSERVIEWBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.uSERVIEWTableAdapter = new SLS.SLSDBDataSet7TableAdapters.USERVIEWTableAdapter();
+            this.userAccountIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.firstNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.middleNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lastNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.accountTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sLSDBDataSet7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uSERVIEWBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -137,12 +149,21 @@
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView1.ColumnHeadersHeight = 55;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.userAccountIDDataGridViewTextBoxColumn,
+            this.firstNameDataGridViewTextBoxColumn,
+            this.middleNameDataGridViewTextBoxColumn,
+            this.lastNameDataGridViewTextBoxColumn,
+            this.accountTypeDataGridViewTextBoxColumn,
+            this.statusDataGridViewCheckBoxColumn});
+            this.dataGridView1.DataSource = this.uSERVIEWBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(5, 42);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
@@ -193,6 +214,68 @@
             this.btnChange.UseVisualStyleBackColor = true;
             this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
             // 
+            // sLSDBDataSet7
+            // 
+            this.sLSDBDataSet7.DataSetName = "SLSDBDataSet7";
+            this.sLSDBDataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // uSERVIEWBindingSource
+            // 
+            this.uSERVIEWBindingSource.DataMember = "USERVIEW";
+            this.uSERVIEWBindingSource.DataSource = this.sLSDBDataSet7;
+            // 
+            // uSERVIEWTableAdapter
+            // 
+            this.uSERVIEWTableAdapter.ClearBeforeFill = true;
+            // 
+            // userAccountIDDataGridViewTextBoxColumn
+            // 
+            this.userAccountIDDataGridViewTextBoxColumn.DataPropertyName = "User Account ID";
+            this.userAccountIDDataGridViewTextBoxColumn.HeaderText = "User Account ID";
+            this.userAccountIDDataGridViewTextBoxColumn.Name = "userAccountIDDataGridViewTextBoxColumn";
+            this.userAccountIDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.userAccountIDDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // firstNameDataGridViewTextBoxColumn
+            // 
+            this.firstNameDataGridViewTextBoxColumn.DataPropertyName = "First Name";
+            this.firstNameDataGridViewTextBoxColumn.HeaderText = "First Name";
+            this.firstNameDataGridViewTextBoxColumn.Name = "firstNameDataGridViewTextBoxColumn";
+            this.firstNameDataGridViewTextBoxColumn.ReadOnly = true;
+            this.firstNameDataGridViewTextBoxColumn.Width = 104;
+            // 
+            // middleNameDataGridViewTextBoxColumn
+            // 
+            this.middleNameDataGridViewTextBoxColumn.DataPropertyName = "Middle Name";
+            this.middleNameDataGridViewTextBoxColumn.HeaderText = "Middle Name";
+            this.middleNameDataGridViewTextBoxColumn.Name = "middleNameDataGridViewTextBoxColumn";
+            this.middleNameDataGridViewTextBoxColumn.ReadOnly = true;
+            this.middleNameDataGridViewTextBoxColumn.Width = 123;
+            // 
+            // lastNameDataGridViewTextBoxColumn
+            // 
+            this.lastNameDataGridViewTextBoxColumn.DataPropertyName = "Last Name";
+            this.lastNameDataGridViewTextBoxColumn.HeaderText = "Last Name";
+            this.lastNameDataGridViewTextBoxColumn.Name = "lastNameDataGridViewTextBoxColumn";
+            this.lastNameDataGridViewTextBoxColumn.ReadOnly = true;
+            this.lastNameDataGridViewTextBoxColumn.Width = 102;
+            // 
+            // accountTypeDataGridViewTextBoxColumn
+            // 
+            this.accountTypeDataGridViewTextBoxColumn.DataPropertyName = "Account Type";
+            this.accountTypeDataGridViewTextBoxColumn.HeaderText = "Account Type";
+            this.accountTypeDataGridViewTextBoxColumn.Name = "accountTypeDataGridViewTextBoxColumn";
+            this.accountTypeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.accountTypeDataGridViewTextBoxColumn.Width = 123;
+            // 
+            // statusDataGridViewCheckBoxColumn
+            // 
+            this.statusDataGridViewCheckBoxColumn.DataPropertyName = "status";
+            this.statusDataGridViewCheckBoxColumn.HeaderText = "status";
+            this.statusDataGridViewCheckBoxColumn.Name = "statusDataGridViewCheckBoxColumn";
+            this.statusDataGridViewCheckBoxColumn.ReadOnly = true;
+            this.statusDataGridViewCheckBoxColumn.Width = 59;
+            // 
             // UserAccountDB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -214,7 +297,10 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "UserAccountDB";
             this.Text = "MemberType";
+            this.Load += new System.EventHandler(this.UserAccountDB_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sLSDBDataSet7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uSERVIEWBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -232,5 +318,14 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Button btnChange;
+        private SLSDBDataSet7 sLSDBDataSet7;
+        private System.Windows.Forms.BindingSource uSERVIEWBindingSource;
+        private SLSDBDataSet7TableAdapters.USERVIEWTableAdapter uSERVIEWTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn userAccountIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn firstNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn middleNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn lastNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn accountTypeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn statusDataGridViewCheckBoxColumn;
     }
 }

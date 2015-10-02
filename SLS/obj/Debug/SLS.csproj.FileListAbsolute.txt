@@ -505,11 +505,9 @@ C:\Users\Clarisse Mae\Desktop\Savings and Loan Management System - Consolidated\
 C:\Users\Clarisse Mae\Desktop\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.Utilities.Database.UserAccountDB.resources
 C:\Users\Clarisse Mae\Desktop\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.csproj.GenerateResource.Cache
 C:\Users\Clarisse Mae\Desktop\Savings and Loan Management System - Consolidated\SLS\SLS\obj\Debug\SLS.csprojResolveAssemblyReference.cache
-D:\capstoneproj\SLS\bin\Debug\SLS.exe.config
-D:\capstoneproj\SLS\bin\Debug\SLS.exe
-D:\capstoneproj\SLS\bin\Debug\SLS.pdb
-D:\capstoneproj\SLS\obj\Debug\SLS.csprojResolveAssemblyReference.cache
+D:\capstoneproj\SLS\obj\Debug\SLS.exe
 D:\capstoneproj\SLS\obj\Debug\SLS.Connection.resources
+D:\capstoneproj\SLS\obj\Debug\SLS.Loan.Application.LoanApplicationView.resources
 D:\capstoneproj\SLS\obj\Debug\SLS.Loan.Database.ChargeModeTermDB.resources
 D:\capstoneproj\SLS\obj\Debug\SLS.Loan.Database.LoanApplicationDB.resources
 D:\capstoneproj\SLS\obj\Debug\SLS.Loan.Database.LoanTypeDB.resources
@@ -572,6 +570,8 @@ D:\capstoneproj\SLS\obj\Debug\SLS.Utilities.Database.CreditInvestigationDB.resou
 D:\capstoneproj\SLS\obj\Debug\SLS.Utilities.Database.LoanGrantorsDB.resources
 D:\capstoneproj\SLS\obj\Debug\SLS.Utilities.Database.UserAccountDB.resources
 D:\capstoneproj\SLS\obj\Debug\SLS.csproj.GenerateResource.Cache
-D:\capstoneproj\SLS\obj\Debug\SLS.exe
 D:\capstoneproj\SLS\obj\Debug\SLS.pdb
-D:\capstoneproj\SLS\obj\Debug\SLS.Loan.Application.LoanApplicationView.resources
+D:\capstoneproj\SLS\bin\Debug\SLS.exe.config
+D:\capstoneproj\SLS\bin\Debug\SLS.exe
+D:\capstoneproj\SLS\bin\Debug\SLS.pdb
+D:\capstoneproj\SLS\obj\Debug\SLS.csprojResolveAssemblyReference.cache

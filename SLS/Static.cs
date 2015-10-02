@@ -8,8 +8,8 @@ namespace SLS
 {
     class Static
     {
-        public static String Server;
-        public static String Database;
+        public static String Server = "CLARISSE\\CLARISSE";
+        public static String Database = "SLSDB";
         public static Int32 UserID;
         public static Int32 ID;
         public static String sql;

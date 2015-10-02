@@ -30,7 +30,6 @@
         {
             this.loanMenuStrip = new System.Windows.Forms.MenuStrip();
             this.companyDetails = new System.Windows.Forms.ToolStripMenuItem();
-            this.restoreBackUp = new System.Windows.Forms.ToolStripMenuItem();
             this.administration = new System.Windows.Forms.ToolStripMenuItem();
             this.userAccount = new System.Windows.Forms.ToolStripMenuItem();
             this.creditInvestigators = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,7 +45,6 @@
             this.loanMenuStrip.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loanMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.companyDetails,
-            this.restoreBackUp,
             this.administration,
             this.auditTrail});
             this.loanMenuStrip.Location = new System.Drawing.Point(0, 0);
@@ -63,15 +61,6 @@
             this.companyDetails.Name = "companyDetails";
             this.companyDetails.Size = new System.Drawing.Size(136, 24);
             this.companyDetails.Text = "Company Details";
-            // 
-            // restoreBackUp
-            // 
-            this.restoreBackUp.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.restoreBackUp.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.restoreBackUp.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.restoreBackUp.Name = "restoreBackUp";
-            this.restoreBackUp.Size = new System.Drawing.Size(144, 24);
-            this.restoreBackUp.Text = "Restore / Back-Up";
             // 
             // administration
             // 
@@ -113,7 +102,7 @@
             this.auditTrail.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.auditTrail.ForeColor = System.Drawing.Color.MidnightBlue;
             this.auditTrail.Name = "auditTrail";
-            this.auditTrail.Size = new System.Drawing.Size(92, 24);
+            this.auditTrail.Size = new System.Drawing.Size(91, 24);
             this.auditTrail.Text = "Audit Trail";
             // 
             // pnlMain
@@ -148,7 +137,6 @@
 
         private System.Windows.Forms.MenuStrip loanMenuStrip;
         private System.Windows.Forms.ToolStripMenuItem companyDetails;
-        private System.Windows.Forms.ToolStripMenuItem restoreBackUp;
         private System.Windows.Forms.ToolStripMenuItem administration;
         private System.Windows.Forms.ToolStripMenuItem auditTrail;
         private System.Windows.Forms.Panel pnlMain;

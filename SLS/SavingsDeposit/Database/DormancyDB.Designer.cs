@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
@@ -39,7 +40,18 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.sLSDBDataSet4 = new SLS.SLSDBDataSet4();
+            this.dORMANCYVIEWBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dORMANCYVIEWTableAdapter = new SLS.SLSDBDataSet4TableAdapters.DORMANCYVIEWTableAdapter();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.savingsTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.inactivityPeriodDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.deductionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.activationFeeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sLSDBDataSet4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dORMANCYVIEWBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -149,12 +161,21 @@
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView1.ColumnHeadersHeight = 55;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.iDDataGridViewTextBoxColumn,
+            this.savingsTypeDataGridViewTextBoxColumn,
+            this.inactivityPeriodDataGridViewTextBoxColumn,
+            this.deductionDataGridViewTextBoxColumn,
+            this.activationFeeDataGridViewTextBoxColumn,
+            this.statusDataGridViewCheckBoxColumn});
+            this.dataGridView1.DataSource = this.dORMANCYVIEWBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(5, 41);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
@@ -179,6 +200,68 @@
             this.dataGridView1.TabIndex = 15;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
+            // sLSDBDataSet4
+            // 
+            this.sLSDBDataSet4.DataSetName = "SLSDBDataSet4";
+            this.sLSDBDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // dORMANCYVIEWBindingSource
+            // 
+            this.dORMANCYVIEWBindingSource.DataMember = "DORMANCYVIEW";
+            this.dORMANCYVIEWBindingSource.DataSource = this.sLSDBDataSet4;
+            // 
+            // dORMANCYVIEWTableAdapter
+            // 
+            this.dORMANCYVIEWTableAdapter.ClearBeforeFill = true;
+            // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn.Width = 51;
+            // 
+            // savingsTypeDataGridViewTextBoxColumn
+            // 
+            this.savingsTypeDataGridViewTextBoxColumn.DataPropertyName = "Savings Type";
+            this.savingsTypeDataGridViewTextBoxColumn.HeaderText = "Savings Type";
+            this.savingsTypeDataGridViewTextBoxColumn.Name = "savingsTypeDataGridViewTextBoxColumn";
+            this.savingsTypeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.savingsTypeDataGridViewTextBoxColumn.Width = 118;
+            // 
+            // inactivityPeriodDataGridViewTextBoxColumn
+            // 
+            this.inactivityPeriodDataGridViewTextBoxColumn.DataPropertyName = "Inactivity Period";
+            this.inactivityPeriodDataGridViewTextBoxColumn.HeaderText = "Inactivity Period";
+            this.inactivityPeriodDataGridViewTextBoxColumn.Name = "inactivityPeriodDataGridViewTextBoxColumn";
+            this.inactivityPeriodDataGridViewTextBoxColumn.ReadOnly = true;
+            this.inactivityPeriodDataGridViewTextBoxColumn.Width = 139;
+            // 
+            // deductionDataGridViewTextBoxColumn
+            // 
+            this.deductionDataGridViewTextBoxColumn.DataPropertyName = "Deduction";
+            this.deductionDataGridViewTextBoxColumn.HeaderText = "Deduction";
+            this.deductionDataGridViewTextBoxColumn.Name = "deductionDataGridViewTextBoxColumn";
+            this.deductionDataGridViewTextBoxColumn.ReadOnly = true;
+            this.deductionDataGridViewTextBoxColumn.Width = 111;
+            // 
+            // activationFeeDataGridViewTextBoxColumn
+            // 
+            this.activationFeeDataGridViewTextBoxColumn.DataPropertyName = "Activation Fee";
+            this.activationFeeDataGridViewTextBoxColumn.HeaderText = "Activation Fee";
+            this.activationFeeDataGridViewTextBoxColumn.Name = "activationFeeDataGridViewTextBoxColumn";
+            this.activationFeeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.activationFeeDataGridViewTextBoxColumn.Width = 127;
+            // 
+            // statusDataGridViewCheckBoxColumn
+            // 
+            this.statusDataGridViewCheckBoxColumn.DataPropertyName = "Status";
+            this.statusDataGridViewCheckBoxColumn.HeaderText = "Status";
+            this.statusDataGridViewCheckBoxColumn.Name = "statusDataGridViewCheckBoxColumn";
+            this.statusDataGridViewCheckBoxColumn.ReadOnly = true;
+            this.statusDataGridViewCheckBoxColumn.Width = 61;
+            // 
             // DormancyDB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -199,7 +282,10 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DormancyDB";
             this.Text = "MemberType";
+            this.Load += new System.EventHandler(this.DormancyDB_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sLSDBDataSet4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dORMANCYVIEWBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,5 +302,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private SLSDBDataSet4 sLSDBDataSet4;
+        private System.Windows.Forms.BindingSource dORMANCYVIEWBindingSource;
+        private SLSDBDataSet4TableAdapters.DORMANCYVIEWTableAdapter dORMANCYVIEWTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn savingsTypeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn inactivityPeriodDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn deductionDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn activationFeeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn statusDataGridViewCheckBoxColumn;
     }
 }

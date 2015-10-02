@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
@@ -39,7 +40,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.sLSDBDataSet6 = new SLS.SLSDBDataSet6();
+            this.tIMEDEPOSITPENALTYVIEWBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tIMEDEPOSITPENALTYVIEWTableAdapter = new SLS.SLSDBDataSet6TableAdapters.TIMEDEPOSITPENALTYVIEWTableAdapter();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.elapsedTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.interestReducedByDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sLSDBDataSet6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tIMEDEPOSITPENALTYVIEWBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -48,7 +58,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(291, 32);
+            this.label1.Size = new System.Drawing.Size(289, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "TIME DEPOSIT PENALTY";
             // 
@@ -149,12 +159,19 @@
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView1.ColumnHeadersHeight = 55;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.iDDataGridViewTextBoxColumn,
+            this.elapsedTimeDataGridViewTextBoxColumn,
+            this.interestReducedByDataGridViewTextBoxColumn,
+            this.statusDataGridViewCheckBoxColumn});
+            this.dataGridView1.DataSource = this.tIMEDEPOSITPENALTYVIEWBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(5, 41);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
@@ -179,6 +196,52 @@
             this.dataGridView1.TabIndex = 15;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
+            // sLSDBDataSet6
+            // 
+            this.sLSDBDataSet6.DataSetName = "SLSDBDataSet6";
+            this.sLSDBDataSet6.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tIMEDEPOSITPENALTYVIEWBindingSource
+            // 
+            this.tIMEDEPOSITPENALTYVIEWBindingSource.DataMember = "TIMEDEPOSITPENALTYVIEW";
+            this.tIMEDEPOSITPENALTYVIEWBindingSource.DataSource = this.sLSDBDataSet6;
+            // 
+            // tIMEDEPOSITPENALTYVIEWTableAdapter
+            // 
+            this.tIMEDEPOSITPENALTYVIEWTableAdapter.ClearBeforeFill = true;
+            // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn.Width = 51;
+            // 
+            // elapsedTimeDataGridViewTextBoxColumn
+            // 
+            this.elapsedTimeDataGridViewTextBoxColumn.DataPropertyName = "Elapsed Time";
+            this.elapsedTimeDataGridViewTextBoxColumn.HeaderText = "Elapsed Time";
+            this.elapsedTimeDataGridViewTextBoxColumn.Name = "elapsedTimeDataGridViewTextBoxColumn";
+            this.elapsedTimeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.elapsedTimeDataGridViewTextBoxColumn.Width = 120;
+            // 
+            // interestReducedByDataGridViewTextBoxColumn
+            // 
+            this.interestReducedByDataGridViewTextBoxColumn.DataPropertyName = "Interest Reduced By";
+            this.interestReducedByDataGridViewTextBoxColumn.HeaderText = "Interest Reduced By";
+            this.interestReducedByDataGridViewTextBoxColumn.Name = "interestReducedByDataGridViewTextBoxColumn";
+            this.interestReducedByDataGridViewTextBoxColumn.ReadOnly = true;
+            this.interestReducedByDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // statusDataGridViewCheckBoxColumn
+            // 
+            this.statusDataGridViewCheckBoxColumn.DataPropertyName = "Status";
+            this.statusDataGridViewCheckBoxColumn.HeaderText = "Status";
+            this.statusDataGridViewCheckBoxColumn.Name = "statusDataGridViewCheckBoxColumn";
+            this.statusDataGridViewCheckBoxColumn.ReadOnly = true;
+            this.statusDataGridViewCheckBoxColumn.Width = 61;
+            // 
             // TimeDepositPenaltyDB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -199,7 +262,10 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TimeDepositPenaltyDB";
             this.Text = "TIME DEPOSIT PENALTY";
+            this.Load += new System.EventHandler(this.TimeDepositPenaltyDB_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sLSDBDataSet6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tIMEDEPOSITPENALTYVIEWBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,5 +282,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private SLSDBDataSet6 sLSDBDataSet6;
+        private System.Windows.Forms.BindingSource tIMEDEPOSITPENALTYVIEWBindingSource;
+        private SLSDBDataSet6TableAdapters.TIMEDEPOSITPENALTYVIEWTableAdapter tIMEDEPOSITPENALTYVIEWTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn elapsedTimeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn interestReducedByDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn statusDataGridViewCheckBoxColumn;
     }
 }
